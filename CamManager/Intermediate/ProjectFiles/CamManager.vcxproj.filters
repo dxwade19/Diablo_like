@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CamManager.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{165501CB-D5C2-442C-8229-65C777038B0B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CamManager.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CamManagerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Hoydedaata_NDH_Lofoten_2pkt_2017.tps" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{9281F08A-4EC2-4E5B-8EDE-86CB14E35641}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CamManager">
+      <UniqueIdentifier>{943EA3EB-7F3D-493D-BF46-F91D39B24880}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CamManager\CamManager.Build.cs">
+      <Filter>Source\CamManager</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CamManager\CamManager.cpp">
+      <Filter>Source\CamManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CamManager\CamManager.h">
+      <Filter>Source\CamManager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CamManager\CM_PlayerController.cpp">
+      <Filter>Source\CamManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CamManager\CM_PlayerController.h">
+      <Filter>Source\CamManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\CamManager\Camera">
+      <UniqueIdentifier>{bf18d72c-4844-4bd6-b0b9-d96cc7457eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Camera\CameraSettings">
+      <UniqueIdentifier>{22d9987b-acf9-4dfe-8d9c-6542e6da8837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Camera\CameraTPS">
+      <UniqueIdentifier>{7b64e333-ce1f-463a-9c3e-87127d45fd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Manager">
+      <UniqueIdentifier>{9edb6f7f-d82e-4c17-96fb-f1af31151e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Manager\CameraManager">
+      <UniqueIdentifier>{e9d13d1f-ef62-4ae1-81c8-18146ceffc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Player">
+      <UniqueIdentifier>{2832f191-24e4-4a6d-b2e0-919f72e13582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Player\PlayerMouvement">
+      <UniqueIdentifier>{de595a75-5868-4400-ad76-ba03cc5cab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Inventory">
+      <UniqueIdentifier>{7ab286c8-a1a3-48a7-ab22-52c9c43c03f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Inventory\InventorySlots">
+      <UniqueIdentifier>{17f3b1e5-522b-44fc-9ed3-0c8add8b0384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Item">
+      <UniqueIdentifier>{d21d2d81-2fb6-416f-8b17-73dde6be4a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Item\Potion_Consumable">
+      <UniqueIdentifier>{e390b688-b56b-4511-8627-a9fd02b9d66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\Item\ConsumableInfo">
+      <UniqueIdentifier>{51256642-9f78-4e6a-9bbb-6919edcf8dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\GameTarget">
+      <UniqueIdentifier>{1ef926b6-d245-4f0d-bf42-0808f7577b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\GameTarget\ITarget">
+      <UniqueIdentifier>{49fdb94e-b805-41e2-bfcd-203d94c38f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CamManager\GameMode">
+      <UniqueIdentifier>{cc400edf-929e-46e7-9954-ef14cda57dad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CamManager\CamSettings.h">
+      <Filter>Source\CamManager\Camera\CameraSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_Camera.h">
+      <Filter>Source\CamManager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_CameraTPS.h">
+      <Filter>Source\CamManager\Camera\CameraTPS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_CameraManager.h">
+      <Filter>Source\CamManager\Manager\CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_Player.h">
+      <Filter>Source\CamManager\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_PlayerMouvement.h">
+      <Filter>Source\CamManager\Player\PlayerMouvement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_InventoryComponent.h">
+      <Filter>Source\CamManager\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_InventorySlot.h">
+      <Filter>Source\CamManager\Inventory\InventorySlots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_Item.h">
+      <Filter>Source\CamManager\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_Potion.h">
+      <Filter>Source\CamManager\Item\Potion_Consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\ConsomableInfo.h">
+      <Filter>Source\CamManager\Item\ConsumableInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CM_TargetStatsComponent.h">
+      <Filter>Source\CamManager\GameTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\ITarget.h">
+      <Filter>Source\CamManager\GameTarget\ITarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CamManager\CamManagerGameModeBase.h">
+      <Filter>Source\CamManager\GameMode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CamManager\CamSettings.cpp">
+      <Filter>Source\CamManager\Camera\CameraSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_Camera.cpp">
+      <Filter>Source\CamManager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_CameraTPS.cpp">
+      <Filter>Source\CamManager\Camera\CameraTPS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_CameraManager.cpp">
+      <Filter>Source\CamManager\Manager\CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_Player.cpp">
+      <Filter>Source\CamManager\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_PlayerMouvement.cpp">
+      <Filter>Source\CamManager\Player\PlayerMouvement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_InventoryComponent.cpp">
+      <Filter>Source\CamManager\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_InventorySlot.cpp">
+      <Filter>Source\CamManager\Inventory\InventorySlots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_Item.cpp">
+      <Filter>Source\CamManager\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_Potion.cpp">
+      <Filter>Source\CamManager\Item\Potion_Consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\ConsomableInfo.cpp">
+      <Filter>Source\CamManager\Item\ConsumableInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CM_TargetStatsComponent.cpp">
+      <Filter>Source\CamManager\GameTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\ITarget.cpp">
+      <Filter>Source\CamManager\GameTarget\ITarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CamManager\CamManagerGameModeBase.cpp">
+      <Filter>Source\CamManager\GameMode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

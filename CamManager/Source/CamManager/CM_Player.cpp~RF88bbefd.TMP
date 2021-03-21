@@ -1,0 +1,29 @@
+#include "CM_Player.h"
+
+
+ACM_Player::ACM_Player()
+{
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+
+void ACM_Player::BeginPlay()
+{
+	Super::BeginPlay();
+
+	
+}
+
+void ACM_Player::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+}
+
+void ACM_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+}
+

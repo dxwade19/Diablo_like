@@ -1,0 +1,17 @@
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\Definitions.CamManager.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Source\CamManager\CM_CameraTPS.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Source\CamManager\CM_Camera.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Source\CamManager\CamSettings.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Inc\CamManager\CamSettings.generated.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Work\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Inc\CamManager\CM_Camera.generated.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Inc\CamManager\CM_CameraTPS.generated.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+D:\Work\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

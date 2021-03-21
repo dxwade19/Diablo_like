@@ -1,0 +1,39 @@
+#include "CM_PlayerMouvement.h"
+
+
+UCM_PlayerMouvement::UCM_PlayerMouvement()
+{
+	PrimaryComponentTick.bCanEverTick = true;
+}
+
+
+void UCM_PlayerMouvement::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+
+void UCM_PlayerMouvement::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	if (!IsTargetReached())
+		Move(DeltaTime);
+}
+
+
+
+void UCM_PlayerMouvement::Move(float DeltaTime)
+{
+	FVector _currentPos = GetOwner()->GetActorLocation();
+	GetOwner()->SetActorLocation(FMath::Lerp(_currentPos, targetPos, DeltaTime * moveSpeed));
+}
+
+
+bool UCM_PlayerMouvement::IsTargetReached()
+{
+	if(FVector::Distance(targetPos, GetOwner()->GetActorLocation()) < minDistanceWithTarget)
+		return true;
+
+	return false;
+}

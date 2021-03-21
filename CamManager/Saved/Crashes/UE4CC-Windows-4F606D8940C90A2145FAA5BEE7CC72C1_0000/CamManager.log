@@ -1,0 +1,1086 @@
+﻿Log file open, 03/15/21 12:12:24
+LogInit: Display: Running engine for game: CamManager
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.197710
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.15-11.12.24:583][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.15-11.12.24:583][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:584][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:590][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-11.12.24:590][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.15-11.12.24:591][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.15-11.12.24:591][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-11.12.24:591][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.15-11.12.24:592][  0]LogHAL: Display: Platform has ~ 16 GB [17078112256 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.15-11.12.24:592][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-11.12.24:592][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.15-11.12.24:593][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.15-11.12.24:593][  0]LogInit: Computer: POSTE-G046
+[2021.03.15-11.12.24:593][  0]LogInit: User: CELL2201
+[2021.03.15-11.12.24:593][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.03.15-11.12.24:593][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.15-11.12.24:593][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.03.15-11.12.24:593][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.15-11.12.24:593][  0]LogMemory: Process Physical Memory: 114.97 MB used, 114.98 MB peak
+[2021.03.15-11.12.24:593][  0]LogMemory: Process Virtual Memory: 104.13 MB used, 104.13 MB peak
+[2021.03.15-11.12.24:593][  0]LogMemory: Physical Memory: 6238.03 MB used,  10048.93 MB free, 16286.96 MB total
+[2021.03.15-11.12.24:593][  0]LogMemory: Virtual Memory: 5151.37 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.03.15-11.12.24:599][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.15-11.12.24:632][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.15-11.12.24:633][  0]LogInit: Using OS detected language (fr-FR).
+[2021.03.15-11.12.24:633][  0]LogInit: Using OS detected locale (fr-FR).
+[2021.03.15-11.12.24:641][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2021.03.15-11.12.24:641][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2021.03.15-11.12.24:641][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2021.03.15-11.12.24:641][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2021.03.15-11.12.24:641][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2021.03.15-11.12.24:642][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2021.03.15-11.12.24:642][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2021.03.15-11.12.24:642][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2021.03.15-11.12.24:671][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.15-11.12.24:757][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.15-11.12.24:757][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.15-11.12.27:466][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-11.12.27:466][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.15-11.12.27:466][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.15-11.12.27:466][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.15-11.12.27:540][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.03.15-11.12.27:540][  0]LogD3D11RHI:       6052/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.15-11.12.27:543][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.15-11.12.27:543][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.15-11.12.27:543][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.15-11.12.27:549][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.15-11.12.27:549][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.15-11.12.27:549][  0]LogWindows: EnumDisplayDevices:
+[2021.03.15-11.12.27:549][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.03.15-11.12.27:549][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2021.03.15-11.12.27:550][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.15-11.12.27:550][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.03.15-11.12.27:550][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.15-11.12.27:550][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.03.15-11.12.27:550][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2021.03.15-11.12.27:550][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2021.03.15-11.12.27:550][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.03.15-11.12.27:587][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.15-11.12.27:587][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.15-11.12.27:587][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.15-11.12.27:656][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.15-11.12.27:939][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.15-11.12.27:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.15-11.12.27:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.15-11.12.27:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.15-11.12.27:991][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.15-11.12.28:009][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.15-11.12.28:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.15-11.12.28:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.15-11.12.28:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.15-11.12.28:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.15-11.12.28:055][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.15-11.12.28:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.15-11.12.28:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.15-11.12.28:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.15-11.12.28:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.15-11.12.28:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.15-11.12.28:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.15-11.12.28:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.15-11.12.28:131][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.15-11.12.28:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.15-11.12.28:140][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.15-11.12.28:150][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.15-11.12.28:210][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (D:/UE4_Project/GitHub/CamManager_Move/CamManager/Intermediate/Shaders/WorkingDirectory/8708/).
+[2021.03.15-11.12.28:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CELL2201/AppData/Local/Temp/UnrealShaderWorkingDir/8DD0F22B4E9D1F157CAC7B832C31249D/'.
+[2021.03.15-11.12.28:210][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.15-11.12.28:210][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.15-11.12.28:210][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.15-11.12.31:222][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: Loaded boot cache 0.20s 75MB C:/Users/CELL2201/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CELL2201/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UE4_Project/GitHub/CamManager_Move/CamManager/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UE4_Project/GitHub/CamManager_Move/CamManager/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-11.12.31:419][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.15-11.12.31:429][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.15-11.12.31:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-11.12.31:429][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.15-11.12.31:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CELL2201/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.15-11.12.31:431][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.15-11.12.31:431][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.15-11.12.31:485][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.15-11.12.31:496][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.15-11.12.31:532][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2021.03.15-11.12.31:745][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-11.12.31:863][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.15-11.12.31:863][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.15-11.12.31:863][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.15-11.12.31:863][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.15-11.12.31:863][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.15-11.12.31:883][  0]LogNetVersion: CamManager 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1207132944)
+[2021.03.15-11.12.32:407][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001E0A389B780), frame # 0
+[2021.03.15-11.12.32:407][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0A37B3C40), frame # 0
+[2021.03.15-11.12.32:408][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0A3830800), frame # 0
+[2021.03.15-11.12.32:488][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.074362 seconds
+[2021.03.15-11.12.32:492][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.15-11.12.32:492][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.15-11.12.32:492][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.15-11.12.32:862][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.15-11.12.32:867][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.15-11.12.32:947][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.32:947][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.32:950][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.32:953][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.32:960][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.33:204][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.15-11.12.33:225][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-11.12.33:225][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-11.12.33:276][  0]LogOcInput: OculusInput pre-init called
+[2021.03.15-11.12.33:286][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.15-11.12.33:286][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.15-11.12.33:344][  0]LogEngine: Initializing Engine...
+[2021.03.15-11.12.33:346][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-11.12.33:346][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.15-11.12.33:346][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.15-11.12.33:452][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.15-11.12.33:460][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.15-11.12.33:460][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0A54F7C00), frame # 0
+[2021.03.15-11.12.33:460][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0A5503B00), frame # 0
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-11.12.33:519][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-11.12.33:519][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-11.12.33:520][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-11.12.33:520][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-11.12.33:535][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-11.12.33:535][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-11.12.33:587][  0]LogAudioMixer: Display: Using Audio Device BenQ GL2250H (3- NVIDIA High Definition Audio)
+[2021.03.15-11.12.33:587][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-11.12.33:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-11.12.33:590][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-11.12.33:593][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-11.12.33:594][  0]LogInit: FAudioDevice initialized.
+[2021.03.15-11.12.33:594][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.15-11.12.33:667][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/CELL2201/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-11.12.33:674][  0]LogInit: Texture streaming: Enabled
+[2021.03.15-11.12.33:692][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.15-11.12.33:692][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.15-11.12.33:693][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.15-11.12.33:760][  0]LogInit: Transaction tracking system initialized
+[2021.03.15-11.12.33:784][  0]BlueprintLog: New page: Editor Load
+[2021.03.15-11.12.33:868][  0]LocalizationService: Localization service is disabled
+[2021.03.15-11.12.34:035][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.15-11.12.34:035][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.15-11.12.34:174][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/' took 0.00s
+[2021.03.15-11.12.34:365][  0]SourceControl: Source control is disabled
+[2021.03.15-11.12.34:365][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.218
+[2021.03.15-11.12.34:365][  0]Cmd: MAP LOAD FILE="D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Scene/MyScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.15-11.12.34:365][  0]LightingResults: New page: Lighting Build
+[2021.03.15-11.12.34:366][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-11.12.34:366][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-11.12.34:366][  0]MapCheck: New page: Map Check
+[2021.03.15-11.12.34:366][  0]LightingResults: New page: Lighting Build
+[2021.03.15-11.12.34:376][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E0A54F7C00), frame # 0
+[2021.03.15-11.12.34:376][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E0A5503B00), frame # 0
+[2021.03.15-11.12.34:376][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.03.15-11.12.34:390][  0]LogAIModule: Creating AISystem for world MyScene
+[2021.03.15-11.12.34:390][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0970CFE00), frame # 0
+[2021.03.15-11.12.34:390][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E097362980), frame # 0
+[2021.03.15-11.12.34:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.15-11.12.34:402][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.03.15-11.12.34:402][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.15-11.12.34:402][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2021.03.15-11.12.34:402][  0]LogFileHelpers: Loading map 'MyScene' took 0.037
+[2021.03.15-11.12.34:404][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.257
+[2021.03.15-11.12.34:590][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.12.34:598][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.12.34:606][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.12.34:613][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.12.34:619][  0]LogCollectionManager: Loaded 0 collections in 0.001543 seconds
+[2021.03.15-11.12.34:633][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Collections/' took 0.00s
+[2021.03.15-11.12.34:633][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Developers/CELL2201/Collections/' took 0.00s
+[2021.03.15-11.12.34:633][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Collections/' took 0.00s
+[2021.03.15-11.12.34:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3435 classes and 823 folders.
+[2021.03.15-11.12.34:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.15-11.12.34:998][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.15-11.12.35:098][  0]LogSlate: Took 0.006256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.15-11.12.35:108][  0]LogSlate: Took 0.006489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.15-11.12.35:117][  0]LogSlate: Took 0.006860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.15-11.12.35:190][  0]LogRenderer: Reallocating scene render targets to support 1176x572 Format 10 NumSamples 1 (Frame:1).
+[2021.03.15-11.12.35:242][  0]LogSlate: Took 0.006844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-11.12.35:311][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.15-11.12.35:311][  0]LogLoad: (Engine Initialization) Total time: 12.16 seconds
+[2021.03.15-11.12.35:311][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.15-11.12.35:356][  0]LogAssetRegistry: Asset discovery search completed in 3.8246 seconds
+[2021.03.15-11.12.35:363][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.03.15-11.12.35:364][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.15-11.12.37:012][183]Candidate modules for hot reload:
+[2021.03.15-11.12.37:012][183]  CamManager
+[2021.03.15-11.12.37:013][183]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,8543 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.12.37:015][183]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:12:38
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.03.15-11.12.38:642][254]CompilerResultsLog:   [1/3] UE4Editor-CamManager-8543.lib
+[2021.03.15-11.12.38:642][254]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-8543.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-8543.exp
+[2021.03.15-11.12.38:642][254]CompilerResultsLog:   [2/3] UE4Editor-CamManager-8543.dll
+[2021.03.15-11.12.38:642][254]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-8543.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-8543.suppressed.exp
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Error:   MyActorInterface.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMyActorInterface::Test_Implementation(void)" (?Test_Implementation@AMyActorInterface@@UEAAXXZ)
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Error:   MyActorInterface.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl AMyActorInterface::Test_Implementation(void)" (?Test_Implementation@AMyActorInterface@@UEAAXXZ)
+[2021.03.15-11.12.38:642][254]CompilerResultsLog: Error:   D:\UE4_Project\GitHub\CamManager_Move\CamManager\Binaries\Win64\UE4Editor-CamManager-8543.dll : fatal error LNK1120: 1 unresolved externals
+[2021.03.15-11.12.38:642][254]LogMainFrame: MainFrame: Module compiling took 1.634 seconds
+[2021.03.15-11.12.38:643][254]Warning: HotReload failed, recompile failed
+[2021.03.15-11.12.41:781][388]LogSlate: Took 0.008074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.15-11.14.34:776][342]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-11.14.34:793][342]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-11.14.35:692][444]Candidate modules for hot reload:
+[2021.03.15-11.14.35:692][444]  CamManager
+[2021.03.15-11.14.35:692][444]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,203 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.14.35:693][444]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:14:46
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Reflection code generated for CamManagerEditor in 6,3411147 seconds
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Building 8 actions with 8 processes...
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [1/8] MyInterface.cpp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [2/8] CamManager.init.gen.cpp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [3/8] MyActorInterface.cpp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [4/8] MyActorInterface.gen.cpp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [5/8] MyInterface.gen.cpp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [6/8] UE4Editor-CamManager-0203.lib
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0203.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0203.exp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:   [7/8] UE4Editor-CamManager-0203.dll
+[2021.03.15-11.14.46:029][634]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0203.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0203.suppressed.exp
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Error:   MyActorInterface.cpp.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl AMyActorInterface::Test_Implementation(void)" (?Test_Implementation@AMyActorInterface@@UEAAHXZ)
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Error:   MyActorInterface.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl AMyActorInterface::Test_Implementation(void)" (?Test_Implementation@AMyActorInterface@@UEAAHXZ)
+[2021.03.15-11.14.46:029][634]CompilerResultsLog: Error:   D:\UE4_Project\GitHub\CamManager_Move\CamManager\Binaries\Win64\UE4Editor-CamManager-0203.dll : fatal error LNK1120: 1 unresolved externals
+[2021.03.15-11.14.46:029][634]LogMainFrame: MainFrame: Module compiling took 10.341 seconds
+[2021.03.15-11.14.46:029][634]Warning: HotReload failed, recompile failed
+[2021.03.15-11.14.49:117][999]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-11.14.49:122][999]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-11.15.06:766][233]Candidate modules for hot reload:
+[2021.03.15-11.15.06:766][233]  CamManager
+[2021.03.15-11.15.06:767][233]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,832 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.15.06:768][233]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:15:09
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:   [1/4] MyActorInterface.cpp
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:   [2/4] UE4Editor-CamManager-0832.lib
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0832.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0832.exp
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:   [3/4] UE4Editor-CamManager-0832.dll
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0832.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0832.suppressed.exp
+[2021.03.15-11.15.09:137][470]CompilerResultsLog:   [4/4] CamManagerEditor.target
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Total time in Parallel executor: 1,31 seconds
+[2021.03.15-11.15.09:137][470]CompilerResultsLog: Total execution time: 2,29 seconds
+[2021.03.15-11.15.09:137][470]LogMainFrame: MainFrame: Module compiling took 2.374 seconds
+[2021.03.15-11.15.09:163][470]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 3435 classes and 823 folders.
+[2021.03.15-11.15.09:163][470]Display: HotReload took  2.4s.
+[2021.03.15-11.15.11:991][806]Candidate modules for hot reload:
+[2021.03.15-11.15.11:991][806]  CamManager
+[2021.03.15-11.15.11:991][806]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,9025 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.15.11:992][806]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:15:13
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.03.15-11.15.13:876][983]CompilerResultsLog:   [1/3] UE4Editor-CamManager-9025.lib
+[2021.03.15-11.15.13:876][983]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-9025.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-9025.exp
+[2021.03.15-11.15.13:876][983]CompilerResultsLog:   [2/3] UE4Editor-CamManager-9025.dll
+[2021.03.15-11.15.13:876][983]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-9025.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-9025.suppressed.exp
+[2021.03.15-11.15.13:876][983]CompilerResultsLog:   [3/3] CamManagerEditor.target
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Total time in Parallel executor: 0,83 seconds
+[2021.03.15-11.15.13:876][983]CompilerResultsLog: Total execution time: 1,79 seconds
+[2021.03.15-11.15.13:876][983]LogMainFrame: MainFrame: Module compiling took 1.889 seconds
+[2021.03.15-11.15.13:911][983]LogClass: Could not find existing class MyActorInterface in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.15.13:911][983]LogClass: Function Test is new.
+[2021.03.15-11.15.13:911][983]LogClass: Could not find existing class MyInterface in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.15.13:911][983]LogClass: Function Test is new.
+[2021.03.15-11.15.13:911][983]LogClass: CamSettings HotReload.
+[2021.03.15-11.15.13:915][983]LogHotReload: Re-instancing MyInterface after hot-reload.
+[2021.03.15-11.15.13:919][983]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0003 seconds. Added 9 classes and 2 folders.
+[2021.03.15-11.15.13:920][983]Display: HotReload successful (3 functions remapped  1 scriptstructs remapped)
+[2021.03.15-11.15.13:965][983]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3436 classes and 823 folders.
+[2021.03.15-11.15.13:965][983]Display: HotReload took  2.0s.
+[2021.03.15-11.15.51:828][200]Candidate modules for hot reload:
+[2021.03.15-11.15.51:828][200]  CamManager
+[2021.03.15-11.15.51:828][200]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,78 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.15.51:829][200]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.15.57:024][778]LogHttp: Warning: 000001E0CC1CDD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97A0D03A-45BC-23A9-CD96-118AC43389FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9b2d234a49e0f18570ea0a9c1a5bd967%7Cdb3098a768aa43ff9726545d04846990%7C0e91f247-f3d1-4fdc-bd3c-70e7ad89b37f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.15-11.15.57:024][778]LogHttp: Warning: 000001E0CC1CDD00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.03.15-11.15.57:024][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e080c8ff70 [can pipeline])
+[2021.03.15-11.15.57:024][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.192.103.101) port 443 (#0))
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: 000001E0CC1CDD00: libcurl info message cache 7 (Closing connection 0)
+[2021.03.15-11.15.57:025][778]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97A0D03A-45BC-23A9-CD96-118AC43389FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9b2d234a49e0f18570ea0a9c1a5bd967%7Cdb3098a768aa43ff9726545d04846990%7C0e91f247-f3d1-4fdc-bd3c-70e7ad89b37f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:16:01
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Reflection code generated for CamManagerEditor in 6,4627271 seconds
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Building 8 actions with 8 processes...
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [1/8] MyInterface.cpp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [2/8] CamManager.init.gen.cpp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [3/8] MyActorInterface.cpp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [4/8] MyActorInterface.gen.cpp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [5/8] MyInterface.gen.cpp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [6/8] UE4Editor-CamManager-0078.lib
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0078.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0078.exp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [7/8] UE4Editor-CamManager-0078.dll
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0078.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0078.suppressed.exp
+[2021.03.15-11.16.01:485][310]CompilerResultsLog:   [8/8] CamManagerEditor.target
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Total time in Parallel executor: 2,10 seconds
+[2021.03.15-11.16.01:485][310]CompilerResultsLog: Total execution time: 9,57 seconds
+[2021.03.15-11.16.01:485][310]LogMainFrame: MainFrame: Module compiling took 9.662 seconds
+[2021.03.15-11.16.01:506][310]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 3436 classes and 823 folders.
+[2021.03.15-11.16.01:506][310]Display: HotReload took  9.7s.
+[2021.03.15-11.16.06:483][904]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-11.16.06:547][904]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.03.15-11.16.06:547][904]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.03.15-11.16.06:614][904]LogSlate: Took 0.008890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.15-11.16.15:388][894]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.03.15-11.16.30:810][739]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" -game -rocket -progress
+[2021.03.15-11.16.31:115][739]Discovering modules, targets and source code for project...
+[2021.03.15-11.16.33:132][739]Binding IntelliSense data...
+[2021.03.15-11.16.35:072][739]Binding IntelliSense data... 100%
+[2021.03.15-11.16.35:072][739]Writing project files...
+[2021.03.15-11.16.39:411][739]Writing project files... 100%
+[2021.03.15-11.16.39:623][739]Candidate modules for hot reload:
+[2021.03.15-11.16.39:623][739]  CamManager
+[2021.03.15-11.16.39:623][739]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,6241 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:16:49
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Creating makefile for CamManagerEditor (no existing makefile)
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Reflection code generated for CamManagerEditor in 5,7041205 seconds
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [1/6] CamManager.init.gen.cpp
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [2/6] MyActorAbstract.cpp
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [3/6] MyActorAbstract.gen.cpp
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [4/6] UE4Editor-CamManager-6241.lib
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6241.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6241.exp
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [5/6] UE4Editor-CamManager-6241.dll
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6241.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6241.suppressed.exp
+[2021.03.15-11.16.49:524][739]CompilerResultsLog:   [6/6] CamManagerEditor.target
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Total time in Parallel executor: 2,04 seconds
+[2021.03.15-11.16.49:524][739]CompilerResultsLog: Total execution time: 9,82 seconds
+[2021.03.15-11.16.49:524][739]LogMainFrame: MainFrame: Module compiling took 9.904 seconds
+[2021.03.15-11.16.49:547][739]LogClass: Could not find existing class MyActorAbstract in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.16.49:547][739]LogClass: Could not find existing class MyActorInterface in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.16.49:547][739]LogClass: Function Test is new.
+[2021.03.15-11.16.49:547][739]LogClass: Could not find existing class MyInterface in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.16.49:547][739]LogClass: Function Test is new.
+[2021.03.15-11.16.49:547][739]LogClass: CamSettings HotReload.
+[2021.03.15-11.16.49:550][739]LogHotReload: Re-instancing MyActorInterface after hot-reload.
+[2021.03.15-11.16.49:553][739]LogHotReload: Re-instancing MyInterface after hot-reload.
+[2021.03.15-11.16.49:558][739]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2021.03.15-11.16.49:559][739]Display: HotReload successful (3 functions remapped  1 scriptstructs remapped)
+[2021.03.15-11.16.49:598][739]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3437 classes and 823 folders.
+[2021.03.15-11.16.49:598][739]Display: HotReload took 10.0s.
+[2021.03.15-11.16.49:598][739]Warning: HotReload operation took 10.0s.
+[2021.03.15-11.16.49:985][739]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.03.15-11.16.49:998][739]LogHotReload: New module detected: UE4Editor-CamManager-6241.dll
+[2021.03.15-11.16.50:055][740]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-11.16.50:137][740]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2021.03.15-11.16.50:137][740]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2021.03.15-11.16.50:151][740]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3437 classes and 823 folders.
+[2021.03.15-11.16.50:156][740]Display: HotReload took  0.1s.
+[2021.03.15-11.18.11:877][571]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.03.15-11.18.11:877][571]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.03.15-11.18.15:497][977]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.03.15-11.18.46:229][659]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" -game -rocket -progress
+[2021.03.15-11.18.46:533][659]Discovering modules, targets and source code for project...
+[2021.03.15-11.18.48:347][659]Binding IntelliSense data...
+[2021.03.15-11.18.50:274][659]Binding IntelliSense data... 100%
+[2021.03.15-11.18.50:274][659]Writing project files...
+[2021.03.15-11.18.54:005][659]Writing project files... 100%
+[2021.03.15-11.18.54:198][659]Candidate modules for hot reload:
+[2021.03.15-11.18.54:198][659]  CamManager
+[2021.03.15-11.18.54:198][659]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,4806 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:19:04
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Creating makefile for CamManagerEditor (no existing makefile)
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Reflection code generated for CamManagerEditor in 5,6797966 seconds
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Building 8 actions with 8 processes...
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [1/8] CamManager.init.gen.cpp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [2/8] MyActorHeritedFromAbstract.cpp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [3/8] MyActorAbstract.cpp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [4/8] MyActorAbstract.gen.cpp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [5/8] MyActorHeritedFromAbstract.gen.cpp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [6/8] UE4Editor-CamManager-4806.lib
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-4806.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-4806.exp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [7/8] UE4Editor-CamManager-4806.dll
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-4806.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-4806.suppressed.exp
+[2021.03.15-11.19.04:639][659]CompilerResultsLog:   [8/8] CamManagerEditor.target
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Total time in Parallel executor: 2,62 seconds
+[2021.03.15-11.19.04:639][659]CompilerResultsLog: Total execution time: 10,36 seconds
+[2021.03.15-11.19.04:639][659]LogMainFrame: MainFrame: Module compiling took 10.446 seconds
+[2021.03.15-11.19.04:668][659]LogClass: Could not find existing class MyActorAbstract in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.19.04:668][659]LogClass: Could not find existing class MyActorHeritedFromAbstract in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.19.04:668][659]LogClass: CamSettings HotReload.
+[2021.03.15-11.19.04:671][659]LogHotReload: Re-instancing MyActorAbstract after hot-reload.
+[2021.03.15-11.19.04:675][659]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2021.03.15-11.19.04:676][659]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2021.03.15-11.19.04:713][659]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3438 classes and 823 folders.
+[2021.03.15-11.19.04:713][659]Display: HotReload took 10.6s.
+[2021.03.15-11.19.04:713][659]Warning: HotReload operation took 10.6s.
+[2021.03.15-11.19.05:088][659]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.03.15-11.19.05:101][659]LogHotReload: New module detected: UE4Editor-CamManager-4806.dll
+[2021.03.15-11.19.05:159][660]LogHotReload: Starting Hot-Reload from IDE
+[2021.03.15-11.19.05:241][660]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0004 seconds. Added 11 classes and 2 folders.
+[2021.03.15-11.19.05:242][660]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2021.03.15-11.19.05:258][660]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3438 classes and 823 folders.
+[2021.03.15-11.19.05:262][660]Display: HotReload took  0.1s.
+[2021.03.15-11.21.29:705][152]Candidate modules for hot reload:
+[2021.03.15-11.21.29:706][152]  CamManager
+[2021.03.15-11.21.29:706][152]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,945 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.21.29:708][152]Warning: Starting HotReload took  0.1s.
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:21:39
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.21.39:481][281]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Reflection code generated for CamManagerEditor in 6,4522811 seconds
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.21.39:481][281]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.03.15-11.21.39:481][281]CompilerResultsLog:   [1/6] CamManager.init.gen.cpp
+[2021.03.15-11.21.39:481][281]CompilerResultsLog:   [2/6] MyActorHeritedFromAbstract.cpp
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:   [3/6] MyActorHeritedFromAbstract.gen.cpp
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:   [4/6] UE4Editor-CamManager-0945.lib
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0945.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0945.exp
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:   [5/6] UE4Editor-CamManager-0945.dll
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0945.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0945.suppressed.exp
+[2021.03.15-11.21.39:482][281]CompilerResultsLog:   [6/6] CamManagerEditor.target
+[2021.03.15-11.21.39:482][281]CompilerResultsLog: Total time in Parallel executor: 2,05 seconds
+[2021.03.15-11.21.39:482][281]CompilerResultsLog: Total execution time: 9,68 seconds
+[2021.03.15-11.21.39:482][281]LogMainFrame: MainFrame: Module compiling took 9.780 seconds
+[2021.03.15-11.21.39:501][281]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 3438 classes and 823 folders.
+[2021.03.15-11.21.39:501][281]Display: HotReload took  9.9s.
+[2021.03.15-11.22.28:705][482]LogEditorViewport: Clicking Background
+[2021.03.15-11.22.42:812][300]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.15-11.22.47:834][840]Cmd: TRANSACTION UNDO
+[2021.03.15-11.22.47:834][840]LogEditorTransaction: Undo Scale Actors
+[2021.03.15-11.23.16:932][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.03.15-11.23.16:935][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/MyScene" FILE="D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Autosaves/Game/Scene/MyScene_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.03.15-11.23.16:957][488]LogSavePackage: Moving 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/MyScene_Auto1ADF4B0274816A6502EA92E89CCCAA5C8.tmp' to 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/Autosaves/Game/Scene/MyScene_Auto1.umap'
+[2021.03.15-11.23.16:962][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scene/MyScene' took 0.039
+[2021.03.15-11.23.16:962][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.039
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97A0D03A-45BC-23A9-CD96-118AC43389FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9b2d234a49e0f18570ea0a9c1a5bd967%7Cdb3098a768aa43ff9726545d04846990%7C0e91f247-f3d1-4fdc-bd3c-70e7ad89b37f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e080c8ff70 [can pipeline])
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 1 (Re-using existing connection! (#5) with host datarouter.ol.epicgames.com)
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.228.246.32) port 443 (#5))
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.15-11.30.57:037][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.15-11.30.57:038][337]LogHttp: Warning: 000001E0B3BA0F00: libcurl info message cache 7 (Closing connection 5)
+[2021.03.15-11.30.57:373][338]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97A0D03A-45BC-23A9-CD96-118AC43389FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=9b2d234a49e0f18570ea0a9c1a5bd967%7Cdb3098a768aa43ff9726545d04846990%7C0e91f247-f3d1-4fdc-bd3c-70e7ad89b37f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.15-11.33.32:361][ 54]LogTemp: Repeating last play command: Simulate
+[2021.03.15-11.33.32:382][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-11.33.32:382][ 54]PIE: New page: SIE session: MyScene (15 mars 2021 à 13:33:32)
+[2021.03.15-11.33.32:383][ 54]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.15-11.33.32:384][ 54]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.15-11.33.32:384][ 54]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_MyScene
+[2021.03.15-11.33.32:386][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002192s)
+[2021.03.15-11.33.32:387][ 54]LogAIModule: Creating AISystem for world MyScene
+[2021.03.15-11.33.32:387][ 54]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001E0BC31A400), frame # 34054
+[2021.03.15-11.33.32:387][ 54]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001E0BCACE0C0), frame # 34054
+[2021.03.15-11.33.32:388][ 54]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2021.03.15-11.33.32:388][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/MyScene.MyScene to /Game/Scene/UEDPIE_0_MyScene.MyScene (0.003623s)
+[2021.03.15-11.33.32:396][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-11.33.32:398][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-11.33.32:398][ 54]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-11.33.32:398][ 54]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-11.33.32:406][ 54]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-11.33.32:406][ 54]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-11.33.32:425][ 54]LogAudioMixer: Display: Using Audio Device BenQ GL2250H (3- NVIDIA High Definition Audio)
+[2021.03.15-11.33.32:425][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-11.33.32:425][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-11.33.32:426][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-11.33.32:426][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-11.33.32:427][ 54]LogInit: FAudioDevice initialized.
+[2021.03.15-11.33.32:454][ 54]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.15-11.33.32:455][ 54]LogWorld: Bringing World /Game/Scene/UEDPIE_0_MyScene.MyScene up for play (max tick rate 0) at 2021.03.15-12.33.32
+[2021.03.15-11.33.32:456][ 54]LogWorld: Bringing up level for play took: 0.000603
+[2021.03.15-11.33.32:456][ 54]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.03.15-11.33.32:477][ 54]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.15-11.33.32:478][ 54]PIE: Server logged in
+[2021.03.15-11.33.32:479][ 54]PIE: Play in editor total start time 0,101 seconds.
+[2021.03.15-11.33.36:780][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.33.36:780][559]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_MyScene
+[2021.03.15-11.33.36:780][559]LogWorld: UWorld::CleanupWorld for MyScene, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-11.33.36:780][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-11.33.36:789][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-11.33.36:790][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-11.33.36:798][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-11.33.36:814][559]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001E0BC31A400), frame # 34559
+[2021.03.15-11.33.36:815][559]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001E0BCACE0C0), frame # 34559
+[2021.03.15-11.33.36:815][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.03.15-11.33.36:850][561]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.03.15-11.33.37:788][665]Candidate modules for hot reload:
+[2021.03.15-11.33.37:788][665]  CamManager
+[2021.03.15-11.33.37:788][665]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,548 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.33.37:789][665]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:33:39
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.03.15-11.33.39:745][852]CompilerResultsLog:   [1/3] UE4Editor-CamManager-0548.lib
+[2021.03.15-11.33.39:745][852]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0548.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0548.exp
+[2021.03.15-11.33.39:745][852]CompilerResultsLog:   [2/3] UE4Editor-CamManager-0548.dll
+[2021.03.15-11.33.39:745][852]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0548.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-0548.suppressed.exp
+[2021.03.15-11.33.39:745][852]CompilerResultsLog:   [3/3] CamManagerEditor.target
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Total time in Parallel executor: 1,00 seconds
+[2021.03.15-11.33.39:745][852]CompilerResultsLog: Total execution time: 1,87 seconds
+[2021.03.15-11.33.39:745][852]LogMainFrame: MainFrame: Module compiling took 1.960 seconds
+[2021.03.15-11.33.39:763][852]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3438 classes and 823 folders.
+[2021.03.15-11.33.39:763][852]Display: HotReload took  2.0s.
+[2021.03.15-11.33.42:486][172]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrint/BP_Player.BP_Player
+[2021.03.15-11.33.42:757][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.03.15-11.33.45:498][377]LogSlate: Took 0.008157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.15-11.33.51:881][108]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.15-11.33.54:981][468]LogSlate: Window 'Color Picker' being destroyed
+[2021.03.15-11.34.06:462][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/BP_Player" FILE="D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/BluePrint/BP_Player.uasset" SILENT=true
+[2021.03.15-11.34.06:486][837]LogSavePackage: Moving 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/BP_Player5CB34E894F418FFBC1F63D83268DFA06.tmp' to 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/BluePrint/BP_Player.uasset'
+[2021.03.15-11.34.06:497][837]AssetCheck: New page: Asset Save: BP_Player
+[2021.03.15-11.34.06:497][837]LogContentValidation: Display: Validating Blueprint /Game/BluePrint/BP_Player.BP_Player
+[2021.03.15-11.34.09:218][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/MyScene" FILE="D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Scene/MyScene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.15-11.34.09:243][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.03.15-11.34.09:266][150]LogSavePackage: Moving 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/MyScene6CA32B644558EAF4B4780594BE781B8C.tmp' to 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Scene/MyScene.umap'
+[2021.03.15-11.34.09:300][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scene/MyScene_BuiltData" FILE="D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Scene/MyScene_BuiltData.uasset" SILENT=true
+[2021.03.15-11.34.09:319][150]LogSavePackage: Moving 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Saved/MyScene_BuiltData6DF741494B81B36C82348497EFC22334.tmp' to 'D:/UE4_Project/GitHub/CamManager_Move/CamManager/Content/Scene/MyScene_BuiltData.uasset'
+[2021.03.15-11.34.09:334][150]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.15-11.34.09:335][150]LogContentValidation: Display: Validating World /Game/Scene/MyScene.MyScene
+[2021.03.15-11.34.09:335][150]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Scene/MyScene_BuiltData.MyScene_BuiltData
+[2021.03.15-11.36.18:466][968]Candidate modules for hot reload:
+[2021.03.15-11.36.18:466][968]  CamManager
+[2021.03.15-11.36.18:466][968]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,2653 CamManagerEditor Win64 Development -Project="D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject" "D:/UE4_Project/GitHub/CamManager_Move/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.15-11.36.18:467][968]Warning: Starting HotReload took  0.0s.
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: New page: Compilation - 15 mars 2021 à 13:36:28
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UE4_Project\GitHub\CamManager_Move).
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Invalidating makefile for CamManagerEditor (CamManager.Build.cs modified)
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4_Project\GitHub\CamManager_Move\CamManager\CamManager.uproject" "D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\CELL2201\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Reflection code generated for CamManagerEditor in 6,3727901 seconds
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:   [1/3] UE4Editor-CamManager-2653.lib
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-2653.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-2653.exp
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:   [2/3] UE4Editor-CamManager-2653.dll
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:      Creating library D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-2653.suppressed.lib and object D:\UE4_Project\GitHub\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-2653.suppressed.exp
+[2021.03.15-11.36.28:735][139]CompilerResultsLog:   [3/3] CamManagerEditor.target
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Total time in Parallel executor: 1,05 seconds
+[2021.03.15-11.36.28:735][139]CompilerResultsLog: Total execution time: 10,19 seconds
+[2021.03.15-11.36.28:735][139]LogMainFrame: MainFrame: Module compiling took 10.273 seconds
+[2021.03.15-11.36.28:774][139]LogClass: Could not find existing class MyActorHeritedFromAbstract in package /Script/CamManager for HotReload, assuming new class
+[2021.03.15-11.36.28:778][139]LogClass: CamSettings HotReload.
+[2021.03.15-11.36.28:783][139]LogHotReload: Re-instancing CM_PlayerMouvement after hot-reload.
+[2021.03.15-11.36.28:783][139]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.03.15-11.36.29:398][139]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.615 s
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: === Handled ensure: ===
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: 
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 1657]
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: Reinstancing non-actor (/Engine/Transient.World_2:PersistentLevel.BP_Player_C_0.CM_PlayerMouvement); failed to resolve archetype object - property values may be lost.
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: Stack: 
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6b3558ce UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6abac279 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6aba9d90 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:398][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6aba8ea5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6aba5ece UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6aba63ee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e46c97 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e46e01 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e3f836 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe7045ed1d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe707e6839 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe707c5bc6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe706e4465 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6f95986a UE4Editor-Core.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6f9799f0 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6f978b08 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e3b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e39617 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e3a1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe59e4c057 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffe6f6dd0a9 UE4Editor-Core.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ff70285a213 UE4Editor.exe!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ff70286ba7c UE4Editor.exe!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ff70286bb5a UE4Editor.exe!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ff70287e31d UE4Editor.exe!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ff70288145a UE4Editor.exe!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffec1037bd4 KERNEL32.DLL!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: [Callstack] 0x00007ffec142ce51 ntdll.dll!UnknownFunction []
+[2021.03.15-11.36.29:399][139]LogOutputDevice: Error: 

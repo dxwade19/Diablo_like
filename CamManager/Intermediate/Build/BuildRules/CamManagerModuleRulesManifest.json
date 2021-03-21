@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Work\\P2\\GitHub\\UE4_Proj\\CamManager_Move\\CamManager\\Source\\CamManager\\CamManager.Build.cs",
+		"D:\\Work\\P2\\GitHub\\UE4_Proj\\CamManager_Move\\CamManager\\Source\\CamManager.Target.cs",
+		"D:\\Work\\P2\\GitHub\\UE4_Proj\\CamManager_Move\\CamManager\\Source\\CamManagerEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

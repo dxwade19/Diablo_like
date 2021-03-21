@@ -1,0 +1,2 @@
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\Definitions.CamManager.h
+D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Source\CamManager\CamManager.h

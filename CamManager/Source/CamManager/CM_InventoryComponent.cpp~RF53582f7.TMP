@@ -1,0 +1,48 @@
+#include "CM_InventoryComponent.h"
+
+
+#pragma region Constructor
+
+UCM_InventoryComponent::UCM_InventoryComponent()
+{
+	PrimaryComponentTick.bCanEverTick = true;
+}
+
+#pragma endregion
+
+#pragma region UE_Methods
+
+void UCM_InventoryComponent::BeginPlay()
+{
+	Super::BeginPlay();
+	Init();
+}
+
+void UCM_InventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+}
+
+#pragma endregion
+
+
+
+#pragma region CustomMethods
+
+void UCM_InventoryComponent::Init()
+{
+	
+}
+
+void UCM_InventoryComponent::TakeOBJ()
+{
+
+}
+
+void UCM_InventoryComponent::DropOBJ()
+{
+
+}
+
+#pragma endregion
