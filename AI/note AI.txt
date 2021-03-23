@@ -1,10 +1,14 @@
-class c++ : brain qui herite de AI controller (cocher attach to pawn pour deplacer le pawn posseder)
+class c++ : brain qui herite de AI controller (cocher attach to pawn 
+pour deplacer le pawn posseder)
 
-behaviour tree qui donnne les ordre et le blackboard set les variables pour le behaviour tree
+behaviour tree qui donnne les ordre et le blackboard set les variables pour 
+le behaviour tree
 
 
-pawn -> AIController (qu'on cree en c++) -> BP de l'aicontroller mets sur le pawn -> link avec blackboard. 
-C++ qui herite de task. Task doit exccuter finish. Dans le behaviour tree d'excecute de gauche a droite
+pawn -> AIController (qu'on cree en c++) -> BP de l'aicontroller mets sur le pawn -> 
+link avec blackboard. 
+C++ qui herite de task. Task doit exccuter finish. 
+Dans le behaviour tree d'excecute de gauche a droite
 
 
 Dans une task on peut ajouter une condition suplementaire avec add decorator
