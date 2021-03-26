@@ -1,0 +1,1 @@
+Refere la FSM de unity sans l'enumerator

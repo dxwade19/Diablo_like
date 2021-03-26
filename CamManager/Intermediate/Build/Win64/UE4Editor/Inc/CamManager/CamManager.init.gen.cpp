@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeCamManager_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF3AB11F9,
-				0x86E67C52,
+				0xC4C79FDE,
+				0xF640B8B4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

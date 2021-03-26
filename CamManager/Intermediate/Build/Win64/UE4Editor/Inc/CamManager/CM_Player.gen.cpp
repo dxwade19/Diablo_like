@@ -186,6 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_Player() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACM_Player_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "CM_Player.h" },
 		{ "ModuleRelativePath", "CM_Player.h" },
@@ -310,7 +311,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_Player() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACM_Player, 111464527);
+	IMPLEMENT_CLASS(ACM_Player, 878632291);
 	template<> CAMMANAGER_API UClass* StaticClass<ACM_Player>()
 	{
 		return ACM_Player::StaticClass();

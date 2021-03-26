@@ -1,4 +1,6 @@
 #include "CM_Player.h"
+#include "CM_PlayerHUD.h"
+
 #include "Kismet/GameplayStatics.h"
 #include "CamManagerGameModeBase.h"
 
@@ -57,6 +59,10 @@ void ACM_Player::InitComponent()
 	playerMouvement = (UCM_PlayerMouvement*)GetComponentByClass(playerMouvementClass);
 	InitTargetStatsComponent_Implementation();
 	playerInventory = (UCM_InventoryComponent*)GetComponentByClass(playerInventoryClass);
+
+	ACM_PlayerHUD* _playerHUD = Cast<ACM_PlayerHUD>(UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetHUD());
+	if (!_playerHUD) return;
+	_playerHUD->BindAction();
 }
 
 void ACM_Player::RegisterPlayerInput(UInputComponent* _playerInputComponent)
@@ -74,7 +80,7 @@ void ACM_Player::RegisterPlayerInput(UInputComponent* _playerInputComponent)
 void ACM_Player::ChangeMoveDirection()
 {
 	if (!IsValid()) return;
-
+	
 	FHitResult _hitResult;
 	if (UGameplayStatics::GetPlayerController(GetWorld(), 0)->GetHitResultUnderCursor(ECollisionChannel::ECC_WorldStatic, false, _hitResult))
 		playerMouvement->SetTargetPos(_hitResult.Location);

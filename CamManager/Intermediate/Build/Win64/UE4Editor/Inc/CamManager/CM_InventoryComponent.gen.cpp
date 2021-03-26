@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeCM_InventoryComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lastIdUse_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_lastIdUse;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_allSlots_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMapPropertyParams NewProp_allSlots;
@@ -55,6 +59,12 @@ void EmptyLinkFunctionForGeneratedCodeCM_InventoryComponent() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_lastIdUse_MetaData[] = {
+		{ "ModuleRelativePath", "CM_InventoryComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_lastIdUse = { "lastIdUse", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCM_InventoryComponent, lastIdUse), METADATA_PARAMS(Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_lastIdUse_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_lastIdUse_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots_MetaData[] = {
 		{ "Category", "CM_InventoryComponent" },
 		{ "ModuleRelativePath", "CM_InventoryComponent.h" },
@@ -64,6 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_InventoryComponent() {}
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots_Key_KeyProp = { "allSlots_Key", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots_ValueProp = { "allSlots", nullptr, (EPropertyFlags)0x0000000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_UCM_InventorySlot_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCM_InventoryComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_lastIdUse,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCM_InventoryComponent_Statics::NewProp_allSlots_ValueProp,
@@ -95,7 +106,7 @@ void EmptyLinkFunctionForGeneratedCodeCM_InventoryComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCM_InventoryComponent, 913940144);
+	IMPLEMENT_CLASS(UCM_InventoryComponent, 3000693360);
 	template<> CAMMANAGER_API UClass* StaticClass<UCM_InventoryComponent>()
 	{
 		return UCM_InventoryComponent::StaticClass();

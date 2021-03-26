@@ -1,6 +1,6 @@
-D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\Definitions.CamManager.h
-D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Source\CamManager\CM_PlayerMouvement.h
-D:\Work\P2\GitHub\UE4_Proj\CamManager_Move\CamManager\Intermediate\Build\Win64\UE4Editor\Inc\CamManager\CM_PlayerMouvement.generated.h
+D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\Definitions.CamManager.h
+D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Source\CamManager\CM_PlayerMouvement.h
+D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Inc\CamManager\CM_PlayerMouvement.generated.h
 D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
 D:\Work\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
 D:\Work\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

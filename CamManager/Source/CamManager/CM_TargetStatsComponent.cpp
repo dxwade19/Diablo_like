@@ -48,7 +48,11 @@ void UCM_TargetStatsComponent::TakeDamage(float _damageToTake)
 	lifeChangeEvent.Broadcast();
 
 	if (currentLife <= 0)
+	{
+		currentLife = 0;
 		lifeEqualOrUnderZeroEvent.Broadcast();
+	}
+		
 }
 
 
@@ -70,7 +74,11 @@ void UCM_TargetStatsComponent::ReduceMana(float _manaToReduce)
 	manaChangeEvent.Broadcast();
 
 	if (currentMana <= 0)
+	{
+		currentMana = 0;
 		manaEqualOrUnderZeroEvent.Broadcast();
+	}
+		
 }
 
 #pragma endregion

@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UCM_InventoryComponent); \
 
 
 #define CamManager_Source_CamManager_CM_InventoryComponent_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__allSlots() { return STRUCT_OFFSET(UCM_InventoryComponent, allSlots); }
+	FORCEINLINE static uint32 __PPO__allSlots() { return STRUCT_OFFSET(UCM_InventoryComponent, allSlots); } \
+	FORCEINLINE static uint32 __PPO__lastIdUse() { return STRUCT_OFFSET(UCM_InventoryComponent, lastIdUse); }
 
 
 #define CamManager_Source_CamManager_CM_InventoryComponent_h_9_PROLOG

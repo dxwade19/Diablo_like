@@ -9,7 +9,7 @@
 #include "CM_Player.generated.h"
 
 
-UCLASS()
+UCLASS(BlueprintType)
 class CAMMANAGER_API ACM_Player : public APawn, public IITarget
 {
 	GENERATED_BODY()

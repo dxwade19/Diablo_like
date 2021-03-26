@@ -1,0 +1,53 @@
+#include "CM_UserWidget.h"
+
+
+
+void UCM_UserWidget::Init(ACM_Player* _player)
+{
+	player = _player;
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("Init")));
+}
+
+
+
+void UCM_UserWidget::UpdateHealBarValue()
+{
+	if(!healProgressBar) return;
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("Update Heal")));
+}
+
+void UCM_UserWidget::UpdateManaBarValue()
+{
+	if (!manaProgressBar) return;
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("Update Mana")));
+}
+
+
+void UCM_UserWidget::UpdatePotionValue()
+{
+	if (!healPotionTextBlock || !manaPotionTextBlock || !player) return;
+	
+
+	int _id = player->GetPlayerInventory()->GetLastIdUse();
+	int _numberOfItemInSlots = player->GetPlayerInventory()->GetNumberOfItemInSlot(_id);
+
+	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Red, FString::Printf(TEXT("%d"), _id));
+
+	switch (_id)
+	{
+		case 0:
+			healPotionTextBlock->SetText(FText(FText::FromString(FString::FromInt(_numberOfItemInSlots))));
+		case 1:
+			manaPotionTextBlock->SetText(FText(FText::FromString(FString::FromInt(_numberOfItemInSlots))));
+	}
+}
+
+
+void UCM_UserWidget::RegisterFunction()
+{
+	if(!player) return;
+	player->GetPlayerStats()->OnLifeChange().AddUObject(this, &UCM_UserWidget::UpdateHealBarValue);
+	player->GetPlayerStats()->OnManaChange().AddUObject(this, &UCM_UserWidget::UpdateManaBarValue);
+
+	player->GetPlayerInventory()->OnInventoryChange().AddUObject(this, &UCM_UserWidget::UpdatePotionValue);
+}

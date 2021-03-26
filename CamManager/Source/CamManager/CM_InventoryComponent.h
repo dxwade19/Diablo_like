@@ -12,7 +12,12 @@ class CAMMANAGER_API UCM_InventoryComponent : public UActorComponent
 	GENERATED_BODY()
 
 private:
+
+	DECLARE_EVENT(FInventoryUpdate, FInventoryChangeEvent);
+	FInventoryChangeEvent InventoryChange;
+
 	UPROPERTY(EditAnywhere) TMap<int, UCM_InventorySlot*> allSlots;
+	UPROPERTY() int lastIdUse;
 
 protected:
 	virtual void BeginPlay() override;
@@ -24,7 +29,14 @@ public:
 	UCM_InventoryComponent();
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	//----GETTER----//
+	inline FInventoryChangeEvent& OnInventoryChange() { return InventoryChange; }
+	inline int GetLastIdUse() { return lastIdUse; }
+	int GetNumberOfItemInSlot(int _id);
+	
+
 	void TakeOBJ(ACM_Item* _toAdd);
 	void MakeItemAction(int _id);
 	void DropOBJ(ACM_Item* _toDrop);
+
 };

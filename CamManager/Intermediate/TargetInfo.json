@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CamManager",
-			"Path": "D:\\Work\\P2\\GitHub\\UE4_Proj\\CamManager_Move\\CamManager\\Source\\CamManager.Target.cs",
+			"Path": "D:\\Work\\P2\\GitHub\\UE4_Proj\\Diablo_like\\CamManager\\Source\\CamManager.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CamManagerEditor",
-			"Path": "D:\\Work\\P2\\GitHub\\UE4_Proj\\CamManager_Move\\CamManager\\Source\\CamManagerEditor.Target.cs",
+			"Path": "D:\\Work\\P2\\GitHub\\UE4_Proj\\Diablo_like\\CamManager\\Source\\CamManagerEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

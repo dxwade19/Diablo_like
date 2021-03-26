@@ -58,10 +58,10 @@ public:
 	inline FStatChangeEvent& OnManaMax() { return manaMaxEvent; }
 
 	//----Setter----//
-	void IncreaseLife(float _lifeToAdd);
-	void TakeDamage(float _damageToTake);
-	void IncreaseMana(float _manaToAdd);
-	void ReduceMana(float _manaToReduce);
+	UFUNCTION(BlueprintCallable) void IncreaseLife(float _lifeToAdd);
+	UFUNCTION(BlueprintCallable) void TakeDamage(float _damageToTake);
+	UFUNCTION(BlueprintCallable) void IncreaseMana(float _manaToAdd);
+	UFUNCTION(BlueprintCallable) void ReduceMana(float _manaToReduce);
 
 #pragma endregion
 

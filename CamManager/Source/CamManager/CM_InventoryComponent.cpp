@@ -30,6 +30,17 @@ void UCM_InventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType,
 #pragma region CustomMethods
 
 
+#pragma region Getter
+
+int UCM_InventoryComponent::GetNumberOfItemInSlot(int _id)
+{
+	if (!allSlots.Contains(_id)) return 0;
+	return allSlots[_id]->GetNumberOfItemInSlots();
+}
+
+#pragma endregion
+
+
 #pragma region Take/Drop
 
 void UCM_InventoryComponent::TakeOBJ(ACM_Item* _toAdd)
@@ -38,6 +49,10 @@ void UCM_InventoryComponent::TakeOBJ(ACM_Item* _toAdd)
 		AddSlots(_toAdd->GetItemID());
 
 	allSlots[_toAdd->GetItemID()]->AddObj(_toAdd);
+
+	lastIdUse = _toAdd->GetItemID();
+	InventoryChange.Broadcast();
+
 	_toAdd->Destroy();
 }
 
@@ -47,6 +62,9 @@ void UCM_InventoryComponent::MakeItemAction(int _id)
 
 	UCM_InventorySlot* _slots = allSlots[_id];
 	_slots->MakeItemAction(GetOwner());
+
+	lastIdUse = _id;
+	InventoryChange.Broadcast();
 
 	if (_slots->GetNumberOfItemInSlots() == 0)
 		allSlots.Remove(_id);

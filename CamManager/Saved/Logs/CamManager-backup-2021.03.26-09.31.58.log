@@ -1,0 +1,1351 @@
+﻿Log file open, 03/26/21 09:03:25
+LogInit: Display: Running engine for game: CamManager
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.220124
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Work/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.26-08.03.29:410][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.26-08.03.29:410][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:414][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.26-08.03.29:414][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.26-08.03.29:415][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:415][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:486][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:486][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.26-08.03.29:486][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.26-08.03.29:486][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:486][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.26-08.03.29:486][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.26-08.03.29:487][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.26-08.03.29:488][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.26-08.03.29:489][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.26-08.03.29:495][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.26-08.03.29:495][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.26-08.03.29:510][  0]LogHAL: Display: Platform has ~ 16 GB [17016401920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.26-08.03.29:512][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.26-08.03.29:512][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.26-08.03.29:512][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.26-08.03.29:513][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.26-08.03.29:514][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Scalability.ini]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.26-08.03.29:515][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.26-08.03.29:535][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.26-08.03.29:535][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.26-08.03.29:535][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.26-08.03.29:535][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Config/Windows/Engine.ini]
+[2021.03.26-08.03.29:556][  0]LogInit: Computer: MSI
+[2021.03.26-08.03.29:556][  0]LogInit: User: Utilisateur
+[2021.03.26-08.03.29:556][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.03.26-08.03.29:556][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.26-08.03.29:556][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.03.26-08.03.29:556][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.26-08.03.29:556][  0]LogMemory: Process Physical Memory: 117.24 MB used, 117.25 MB peak
+[2021.03.26-08.03.29:556][  0]LogMemory: Process Virtual Memory: 105.21 MB used, 105.21 MB peak
+[2021.03.26-08.03.29:556][  0]LogMemory: Physical Memory: 8306.44 MB used,  7921.67 MB free, 16228.11 MB total
+[2021.03.26-08.03.29:556][  0]LogMemory: Virtual Memory: 5174.93 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.03.26-08.03.29:633][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.26-08.03.30:629][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.26-08.03.30:644][  0]LogInit: Using OS detected language (fr-FR).
+[2021.03.26-08.03.30:644][  0]LogInit: Using OS detected locale (fr-FR).
+[2021.03.26-08.03.30:731][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2021.03.26-08.03.30:731][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2021.03.26-08.03.30:731][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2021.03.26-08.03.30:732][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2021.03.26-08.03.30:732][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2021.03.26-08.03.30:749][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2021.03.26-08.03.30:881][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2021.03.26-08.03.30:882][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2021.03.26-08.03.30:913][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.26-08.03.31:570][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.26-08.03.31:570][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.26-08.03.33:266][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.26-08.03.33:266][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.26-08.03.33:266][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.26-08.03.33:266][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.26-08.03.33:395][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.03.26-08.03.33:395][  0]LogD3D11RHI:       8031/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.26-08.03.33:437][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.03.26-08.03.33:437][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.03.26-08.03.33:441][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.26-08.03.33:441][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.26-08.03.33:441][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.26-08.03.33:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.26-08.03.33:453][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.26-08.03.33:453][  0]LogWindows: EnumDisplayDevices:
+[2021.03.26-08.03.33:453][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.03.26-08.03.33:453][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.03.26-08.03.33:453][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.03.26-08.03.33:454][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.03.26-08.03.33:454][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.03.26-08.03.33:454][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.03.26-08.03.33:454][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.03.26-08.03.33:455][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.03.26-08.03.33:455][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.03.26-08.03.33:455][  0]LogD3D11RHI:   Driver Version: 461.92 (internal:27.21.14.6192, unified:461.92)
+[2021.03.26-08.03.33:455][  0]LogD3D11RHI:      Driver Date: 3-10-2021
+[2021.03.26-08.03.33:455][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.03.26-08.03.33:552][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.26-08.03.33:553][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.26-08.03.33:553][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.26-08.03.33:865][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.26-08.03.34:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.26-08.03.34:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.26-08.03.34:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.26-08.03.34:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.26-08.03.34:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.26-08.03.34:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.26-08.03.34:742][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.26-08.03.34:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.26-08.03.34:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.26-08.03.34:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.26-08.03.34:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.26-08.03.34:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.26-08.03.34:878][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.26-08.03.34:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.26-08.03.34:906][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.26-08.03.34:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.26-08.03.34:982][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.26-08.03.35:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.26-08.03.35:027][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.26-08.03.35:027][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.26-08.03.35:250][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.26-08.03.36:061][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Intermediate/Shaders/WorkingDirectory/1028/).
+[2021.03.26-08.03.36:061][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utilisateur/AppData/Local/Temp/UnrealShaderWorkingDir/2B097DE94C7462B3A076E28CC4D6489C/'.
+[2021.03.26-08.03.36:074][  0]LogXGEController: Cleaning working directory: C:/Users/Utilisateur/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.26-08.03.36:075][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.26-08.03.36:076][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.26-08.03.36:076][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.26-08.03.39:200][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: Loaded boot cache 0.28s 76MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.26-08.03.39:476][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.26-08.03.39:558][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.26-08.03.39:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.26-08.03.39:558][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.26-08.03.39:564][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.26-08.03.39:564][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.26-08.03.39:564][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.26-08.03.39:774][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.26-08.03.39:836][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.26-08.03.40:573][  0]LogAssetRegistry: FAssetRegistry took 0.0070 seconds to start up
+[2021.03.26-08.03.44:731][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.26-08.03.46:983][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.26-08.03.46:983][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.26-08.03.46:983][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.26-08.03.46:983][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.26-08.03.46:983][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.26-08.03.47:480][  0]LogNetVersion: CamManager 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1207132944)
+[2021.03.26-08.03.58:846][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027AA0EE6380), frame # 0
+[2021.03.26-08.03.58:846][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027AA0E86AC0), frame # 0
+[2021.03.26-08.03.58:856][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027AA0FD6A00), frame # 0
+[2021.03.26-08.03.59:252][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.153230 seconds
+[2021.03.26-08.03.59:273][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.26-08.03.59:273][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.26-08.03.59:273][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.26-08.04.04:168][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.26-08.04.04:240][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.26-08.04.05:226][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.05:240][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.05:334][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.05:363][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.05:544][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.09:132][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.26-08.04.09:442][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.26-08.04.09:442][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.26-08.04.09:766][  0]LogOcInput: OculusInput pre-init called
+[2021.03.26-08.04.09:875][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.26-08.04.09:876][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.26-08.04.11:630][  0]LogEngine: Initializing Engine...
+[2021.03.26-08.04.11:769][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.26-08.04.11:769][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.26-08.04.11:864][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.037 s
+[2021.03.26-08.04.12:421][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.26-08.04.13:098][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.26-08.04.13:098][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027AA872D600), frame # 0
+[2021.03.26-08.04.13:099][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027AA875A200), frame # 0
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.04.13:445][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.04.13:445][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.04.13:454][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.04.13:464][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.04.13:709][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.04.13:709][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.04.13:792][  0]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.04.13:809][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.04.13:850][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.04.13:855][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.04.13:872][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.04.13:874][  0]LogInit: FAudioDevice initialized.
+[2021.03.26-08.04.13:933][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.26-08.04.13:998][  0]LogDerivedDataCache: Saved boot cache 0.06s 76MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.26-08.04.13:998][  0]LogInit: Texture streaming: Enabled
+[2021.03.26-08.04.14:369][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.26-08.04.14:369][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.26-08.04.14:445][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.26-08.04.15:428][  0]LogInit: Transaction tracking system initialized
+[2021.03.26-08.04.15:787][  0]BlueprintLog: New page: Editor Load
+[2021.03.26-08.04.17:857][  0]LocalizationService: Localization service is disabled
+[2021.03.26-08.04.20:779][  0]LogFileCache: Scanning file cache for directory 'D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/' took 0.06s
+[2021.03.26-08.04.20:779][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.26-08.04.20:779][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.26-08.04.23:705][  0]SourceControl: Source control is disabled
+[2021.03.26-08.04.23:724][  0]LogUnrealEdMisc: Loading editor; pre map load, took 76.201
+[2021.03.26-08.04.23:849][  0]Cmd: MAP LOAD FILE="../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/City_of_Brass_Enviroment/Maps/Demo_Gardens.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.26-08.04.23:995][  0]LightingResults: New page: Lighting Build
+[2021.03.26-08.04.24:284][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.26-08.04.24:284][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.04.24:382][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.04.24:435][  0]MapCheck: New page: Map Check
+[2021.03.26-08.04.24:435][  0]LightingResults: New page: Lighting Build
+[2021.03.26-08.04.26:008][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027AA872D600), frame # 0
+[2021.03.26-08.04.26:013][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027AA875A200), frame # 0
+[2021.03.26-08.04.26:047][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.03.26-08.04.38:704][  0]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.04.38:704][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027A9A007E00), frame # 0
+[2021.03.26-08.04.38:704][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027A9A0B8900), frame # 0
+[2021.03.26-08.04.39:855][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.26-08.04.40:246][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.03.26-08.04.40:259][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.26-08.04.40:284][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 10,995ms to complete.
+[2021.03.26-08.04.40:284][  0]LogFileHelpers: Loading map 'Demo_Gardens' took 16.536
+[2021.03.26-08.04.41:928][  0]LogUnrealEdMisc: Total Editor Startup Time, took 94.405
+[2021.03.26-08.04.43:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.04.43:239][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.04.43:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.04.43:258][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.04.43:334][  0]LogCollectionManager: Loaded 0 collections in 0.002281 seconds
+[2021.03.26-08.04.43:598][  0]LogFileCache: Scanning file cache for directory 'D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Collections/' took 0.00s
+[2021.03.26-08.04.43:598][  0]LogFileCache: Scanning file cache for directory 'D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/Developers/Utilisateur/Collections/' took 0.00s
+[2021.03.26-08.04.43:598][  0]LogFileCache: Scanning file cache for directory 'D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/Collections/' took 0.00s
+[2021.03.26-08.04.43:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0721 seconds. Added 3442 classes and 823 folders.
+[2021.03.26-08.04.43:693][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.03.26-08.04.45:037][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2021.03.26-08.04.45:723][  0]LogSlate: Took 0.026883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.26-08.04.45:849][  0]LogSlate: Took 0.014322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.26-08.04.45:893][  0]LogSlate: Took 0.042481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.26-08.04.46:624][  0]LogRenderer: Reallocating scene render targets to support 1228x584 Format 10 NumSamples 1 (Frame:1).
+[2021.03.26-08.04.47:981][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.03.26-08.04.47:981][  0]LogLoad: (Engine Initialization) Total time: 100.46 seconds
+[2021.03.26-08.04.47:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.26-08.04.48:692][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.26-08.04.48:960][  0]LogSlate: Took 0.074388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.03.26-08.04.49:555][  2]LogAssetRegistry: Asset discovery search completed in 68.9825 seconds
+[2021.03.26-08.04.49:582][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.03.26-08.04.49:852][  2]LogSlate: Took 0.013362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.26-08.05.06:557][326]LogSlate: Took 0.000557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.26-08.05.06:584][326]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrint/HUD/CM_PlayerHUD_BP.CM_PlayerHUD_BP
+[2021.03.26-08.05.07:467][326]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2021.03.26-08.05.12:191][430]LogSlate: Window 'CM_PlayerHUD_BP' being destroyed
+[2021.03.26-08.05.12:200][430]LogSlate: Window 'CM_PlayerHUD_BP' being destroyed
+[2021.03.26-08.05.12:338][430]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.05.12:338][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.05.13:623][474]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BluePrint/HUD/CM_DiabloLikeWidget.CM_DiabloLikeWidget
+[2021.03.26-08.05.15:254][474]LogSlate: Took 0.026673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.26-08.05.25:886][ 28]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.05.26:063][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.03.26-08.05.30:028][258]LogSlate: Window 'CM_DiabloLikeWidget' being destroyed
+[2021.03.26-08.05.30:038][258]LogSlate: Window 'CM_DiabloLikeWidget' being destroyed
+[2021.03.26-08.05.30:266][258]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.05.30:266][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.05.30:279][258]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.05.30:279][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.05.32:084][345]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.03.26-08.05.32:948][345]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Demo_GardensDFA8582744ACA62E4A018FB1A4ED0ADB.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/City_of_Brass_Enviroment/Maps/Demo_Gardens.umap'
+[2021.03.26-08.05.33:029][345]AssetCheck: New page: Asset Save: Demo_Gardens
+[2021.03.26-08.05.33:029][345]LogContentValidation: Display: Validating World /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens
+[2021.03.26-08.06.42:068][361]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BluePrint/HUD/CM_DiabloLikeWidget.CM_DiabloLikeWidget
+[2021.03.26-08.08.09:680][386]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.08.09:800][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.03.26-08.08.39:609][131]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.08.39:632][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.03.26-08.11.38:704][306]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.26-08.11.40:960][438]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.11.41:108][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.11.41:169][438]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:11:41)
+[2021.03.26-08.11.41:256][438]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.26-08.11.41:258][438]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.26-08.11.41:277][438]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.11.41:374][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096001s)
+[2021.03.26-08.11.41:375][438]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.11.41:375][438]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B01341000), frame # 10438
+[2021.03.26-08.11.41:375][438]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B005F3880), frame # 10438
+[2021.03.26-08.11.41:376][438]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2021.03.26-08.11.41:383][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.105177s)
+[2021.03.26-08.11.41:407][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.11.41:410][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.11.41:410][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.11.41:411][438]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.11.41:411][438]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.11.41:419][438]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.11.41:419][438]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.11.41:474][438]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.11.41:474][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.11.41:474][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.11.41:474][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.11.41:474][438]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.11.41:491][438]LogInit: FAudioDevice initialized.
+[2021.03.26-08.11.41:736][438]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.11.41:806][438]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.11.41
+[2021.03.26-08.11.42:004][438]LogWorld: Bringing up level for play took: 0.243833
+[2021.03.26-08.11.42:042][438]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.03.26-08.11.42:157][438]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.03.26-08.11.42:350][438]PIE: Server logged in
+[2021.03.26-08.11.42:361][438]PIE: Play in editor total start time 1,368 seconds.
+[2021.03.26-08.11.44:531][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.11.44:531][518]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.11.44:571][518]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.11.44:585][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.11.44:655][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.11.44:695][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.11.44:893][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.11.44:949][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B005F3880), frame # 10518
+[2021.03.26-08.11.44:949][518]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B01341000), frame # 10518
+[2021.03.26-08.11.44:991][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.03.26-08.11.45:028][519]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.03.26-08.12.06:258][747]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.12.06:301][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.03.26-08.12.07:966][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/HUD/CM_DiabloLikeWidget" FILE="../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset" SILENT=true
+[2021.03.26-08.12.08:108][834]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/CM_DiabloLikeWidgetC91E1D3749C0BD08685470970372A4E5.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset'
+[2021.03.26-08.12.08:139][834]AssetCheck: New page: Asset Save: CM_DiabloLikeWidget
+[2021.03.26-08.12.08:140][834]LogContentValidation: Display: Validating WidgetBlueprint /Game/BluePrint/HUD/CM_DiabloLikeWidget.CM_DiabloLikeWidget
+[2021.03.26-08.12.16:804][342]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.12.16:843][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.03.26-08.12.27:711][976]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CamManager.CM_UserWidget
+[2021.03.26-08.14.00:327][221]LogSlate: Window 'CM_DiabloLikeWidget' being destroyed
+[2021.03.26-08.15.35:728][597]LogUObjectHash: Compacting FUObjectHashTables data took   8.91ms
+[2021.03.26-08.15.35:732][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/City_of_Brass_Enviroment/Maps/Demo_Gardens' took 0.070
+[2021.03.26-08.15.35:734][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/HUD/CM_DiabloLikeWidget] ([1] browsable assets)...
+[2021.03.26-08.15.35:734][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/HUD/CM_DiabloLikeWidget]
+[2021.03.26-08.15.35:763][597]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/CM_DiabloLikeWidget_Auto18926F111417819E881C29B9D11181786.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Autosaves/Game/BluePrint/HUD/CM_DiabloLikeWidget_Auto1.uasset'
+[2021.03.26-08.15.35:995][597]LogFileHelpers: Auto-saving content packages took 0.262
+[2021.03.26-08.19.05:313][334]Candidate modules for hot reload:
+[2021.03.26-08.19.05:313][334]  CamManager
+[2021.03.26-08.19.05:314][334]Launching UnrealBuildTool... [D:/Work/UE4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,6922 CamManagerEditor Win64 Development -Project="D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject" "D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.26-08.19.05:350][334]Warning: Starting HotReload took  0.1s.
+[2021.03.26-08.27.28:989][245]CompilerResultsLog: New page: Compilation - 26 mars 2021 à 10:27:28
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Work\P2\GitHub\UE4_Proj\Diablo_like).
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   Running UnrealHeaderTool "D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\CamManager.uproject" "D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Utilisateur\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Reflection code generated for CamManagerEditor in 28,8359204 seconds
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [1/9] CamManager.init.gen.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [2/9] CM_UserWidget.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [3/9] CM_PlayerHUD.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [4/9] CM_PlayerHUD.gen.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [5/9] CM_UserWidget.gen.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [6/9] CM_Player.cpp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [7/9] UE4Editor-CamManager-6922.lib
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6922.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6922.exp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [8/9] UE4Editor-CamManager-6922.dll
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6922.suppressed.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-6922.suppressed.exp
+[2021.03.26-08.27.29:006][245]CompilerResultsLog:   [9/9] CamManagerEditor.target
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Total time in Parallel executor: 471,77 seconds
+[2021.03.26-08.27.29:006][245]CompilerResultsLog: Total execution time: 502,99 seconds
+[2021.03.26-08.27.29:006][245]LogMainFrame: MainFrame: Module compiling took 503.782 seconds
+[2021.03.26-08.27.29:495][245]LogClass: Could not find existing class CM_UserWidget in package /Script/CamManager for HotReload, assuming new class
+[2021.03.26-08.27.29:511][245]LogClass: Function SetHealPotionText is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function SetHealProgressBar is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function SetManaPotionText is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function SetManaProgressBar is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function UpdateHealBarValue is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function UpdateManaBarValue is new.
+[2021.03.26-08.27.29:511][245]LogClass: Function UpdatePotionValue is new.
+[2021.03.26-08.27.29:521][245]LogClass: EConsomableEffect HotReload.
+[2021.03.26-08.27.29:521][245]LogClass: CamSettings HotReload.
+[2021.03.26-08.27.29:521][245]LogClass: ConsomableInfo HotReload.
+[2021.03.26-08.27.29:543][245]LogHotReload: Re-instancing CM_UserWidget after hot-reload.
+[2021.03.26-08.27.29:638][245]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0005 seconds. Added 15 classes and 2 folders.
+[2021.03.26-08.27.29:660][245]Display: HotReload successful (12 functions remapped  2 scriptstructs remapped)
+[2021.03.26-08.27.30:951][245]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 3442 classes and 823 folders.
+[2021.03.26-08.27.31:046][245]Display: HotReload took 505.8s.
+[2021.03.26-08.28.17:400][625]LogSlate: Took 0.046206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.26-08.29.35:232][ 84]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.29.35:387][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2021.03.26-08.30.20:428][698]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.30.20:493][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.03.26-08.30.21:406][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/HUD/CM_DiabloLikeWidget" FILE="../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset" SILENT=true
+[2021.03.26-08.30.21:592][749]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/CM_DiabloLikeWidget6DE21F034DF78EEF7496FD99AECD6A36.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset'
+[2021.03.26-08.30.21:662][749]AssetCheck: New page: Asset Save: CM_DiabloLikeWidget
+[2021.03.26-08.30.21:662][749]LogContentValidation: Display: Validating WidgetBlueprint /Game/BluePrint/HUD/CM_DiabloLikeWidget.CM_DiabloLikeWidget
+[2021.03.26-08.30.51:256][468]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.30.51:292][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.03.26-08.31.24:706][384]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.31.24:742][384]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.03.26-08.31.36:909][ 92]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.31.36:944][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.03.26-08.31.46:275][628]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-08.31.46:309][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.03.26-08.31.48:011][727]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.31.48:036][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.31.48:036][727]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:31:48)
+[2021.03.26-08.31.48:036][727]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.31.48:086][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049421s)
+[2021.03.26-08.31.48:088][727]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.31.48:088][727]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B0E265400), frame # 32727
+[2021.03.26-08.31.48:088][727]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B0493F240), frame # 32727
+[2021.03.26-08.31.48:088][727]LogPlayLevel: PIE: World Init took: (0.002043s)
+[2021.03.26-08.31.48:088][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.051759s)
+[2021.03.26-08.31.48:117][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.31.48:117][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.31.48:117][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.31.48:118][727]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.31.48:118][727]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.31.48:157][727]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.31.48:157][727]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.31.48:214][727]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.31.48:214][727]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.31.48:214][727]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.31.48:214][727]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.31.48:214][727]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.31.48:231][727]LogInit: FAudioDevice initialized.
+[2021.03.26-08.31.48:238][727]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.31.48:253][727]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.31.48
+[2021.03.26-08.31.48:255][727]LogWorld: Bringing up level for play took: 0.015405
+[2021.03.26-08.31.48:264][727]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.03.26-08.31.48:282][727]PIE: Server logged in
+[2021.03.26-08.31.48:283][727]PIE: Play in editor total start time 0,254 seconds.
+[2021.03.26-08.32.02:290][546]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.32.03:220][600]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.32.04:552][680]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.32.11:152][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.32.11:152][ 73]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.32.11:153][ 73]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.32.11:155][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.32.11:167][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.32.11:174][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.32.11:223][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.32.11:267][ 73]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B0493F240), frame # 34073
+[2021.03.26-08.32.11:267][ 73]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B0E265400), frame # 34073
+[2021.03.26-08.32.11:271][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.03.26-08.32.11:323][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.03.26-08.32.16:580][384]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.32.16:600][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.32.16:600][384]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:32:16)
+[2021.03.26-08.32.16:600][384]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.32.16:646][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045829s)
+[2021.03.26-08.32.16:647][384]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.32.16:647][384]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027ADF575200), frame # 34384
+[2021.03.26-08.32.16:647][384]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B0493C900), frame # 34384
+[2021.03.26-08.32.16:648][384]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2021.03.26-08.32.16:648][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.047327s)
+[2021.03.26-08.32.16:675][384]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.32.16:678][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.32.16:678][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.32.16:678][384]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.32.16:679][384]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.32.16:685][384]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.32.16:685][384]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.32.16:737][384]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.32.16:737][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.32.16:737][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.32.16:737][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.32.16:738][384]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.32.16:754][384]LogInit: FAudioDevice initialized.
+[2021.03.26-08.32.16:766][384]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.32.16:781][384]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.32.16
+[2021.03.26-08.32.16:781][384]LogWorld: Bringing up level for play took: 0.014911
+[2021.03.26-08.32.16:782][384]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.26-08.32.16:786][384]PIE: Server logged in
+[2021.03.26-08.32.16:787][384]PIE: Play in editor total start time 0,191 seconds.
+[2021.03.26-08.32.30:417][198]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.32.31:628][268]LogBlueprintUserMessages: [TargetConstroller_C_0] attack
+[2021.03.26-08.32.32:869][339]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.32.36:553][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.32.36:553][552]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.32.36:554][552]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.32.36:555][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.32.36:562][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.32.36:568][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.32.36:614][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.32.36:622][552]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B0493C900), frame # 35552
+[2021.03.26-08.32.36:622][552]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027ADF575200), frame # 35552
+[2021.03.26-08.32.36:625][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.03.26-08.32.36:671][553]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.26-08.32.54:649][888]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.32.54:671][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.32.54:671][888]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:32:54)
+[2021.03.26-08.32.54:671][888]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.32.54:718][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047689s)
+[2021.03.26-08.32.54:719][888]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.32.54:719][888]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B01308600), frame # 35888
+[2021.03.26-08.32.54:720][888]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B04888540), frame # 35888
+[2021.03.26-08.32.54:720][888]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2021.03.26-08.32.54:720][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.049924s)
+[2021.03.26-08.32.54:750][888]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.32.54:752][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.32.54:752][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.32.54:752][888]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.32.54:753][888]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.32.54:760][888]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.32.54:760][888]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.32.54:817][888]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.32.54:817][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.32.54:817][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.32.54:817][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.32.54:818][888]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.32.54:837][888]LogInit: FAudioDevice initialized.
+[2021.03.26-08.32.54:848][888]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.32.54:862][888]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.32.54
+[2021.03.26-08.32.54:863][888]LogWorld: Bringing up level for play took: 0.013304
+[2021.03.26-08.32.54:863][888]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.03.26-08.32.54:867][888]PIE: Server logged in
+[2021.03.26-08.32.54:868][888]PIE: Play in editor total start time 0,201 seconds.
+[2021.03.26-08.33.10:943][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.33.10:943][844]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.33.10:944][844]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.33.10:946][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.33.10:955][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.33.10:962][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.33.11:020][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.33.11:021][844]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B04888540), frame # 36844
+[2021.03.26-08.33.11:021][844]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B01308600), frame # 36844
+[2021.03.26-08.33.11:024][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.03.26-08.33.11:065][845]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.03.26-08.33.36:999][  6]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.03.26-08.33.37:001][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/City_of_Brass_Enviroment/Maps/Demo_Gardens' took 0.033
+[2021.03.26-08.33.37:001][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/HUD/CM_DiabloLikeWidget] ([1] browsable assets)...
+[2021.03.26-08.33.37:001][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/HUD/CM_DiabloLikeWidget]
+[2021.03.26-08.33.37:044][  6]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/CM_DiabloLikeWidget_Auto2DAF20146469B951CCA23B4B6F22D871C.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/Autosaves/Game/BluePrint/HUD/CM_DiabloLikeWidget_Auto2.uasset'
+[2021.03.26-08.33.37:046][  6]LogFileHelpers: Auto-saving content packages took 0.045
+[2021.03.26-08.36.37:859][576]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.36.37:887][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.36.37:887][576]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:36:37)
+[2021.03.26-08.36.37:887][576]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.36.37:945][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057447s)
+[2021.03.26-08.36.37:946][576]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.36.37:946][576]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B02297C00), frame # 37576
+[2021.03.26-08.36.37:946][576]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B37674F40), frame # 37576
+[2021.03.26-08.36.37:947][576]LogPlayLevel: PIE: World Init took: (0.002209s)
+[2021.03.26-08.36.37:947][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.059871s)
+[2021.03.26-08.36.38:184][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.36.38:186][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.36.38:186][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.36.38:187][576]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.36.38:187][576]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.36.38:234][576]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.36.38:234][576]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.36.38:496][576]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.36.38:497][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.36.38:497][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.36.38:497][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.36.38:536][576]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.36.38:619][576]LogInit: FAudioDevice initialized.
+[2021.03.26-08.36.38:626][576]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.36.38:641][576]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.36.38
+[2021.03.26-08.36.38:642][576]LogWorld: Bringing up level for play took: 0.014680
+[2021.03.26-08.36.38:642][576]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.26-08.36.38:676][576]PIE: Server logged in
+[2021.03.26-08.36.38:677][576]PIE: Play in editor total start time 0,795 seconds.
+[2021.03.26-08.36.57:632][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.36.57:632][686]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.36.57:633][686]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.36.57:635][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.36.57:643][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.36.57:649][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.36.57:746][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.36.57:748][686]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B37674F40), frame # 38686
+[2021.03.26-08.36.57:748][686]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B02297C00), frame # 38686
+[2021.03.26-08.36.57:754][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2021.03.26-08.36.57:860][687]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.26-08.37.39:135][956]Candidate modules for hot reload:
+[2021.03.26-08.37.39:135][956]  CamManager
+[2021.03.26-08.37.39:136][956]Launching UnrealBuildTool... [D:/Work/UE4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,1467 CamManagerEditor Win64 Development -Project="D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject" "D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.26-08.37.39:239][956]Warning: Starting HotReload took  0.2s.
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: New page: Compilation - 26 mars 2021 à 10:48:44
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Work\P2\GitHub\UE4_Proj\Diablo_like).
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:   [1/4] CM_UserWidget.cpp
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:   [2/4] UE4Editor-CamManager-1467.lib
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1467.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1467.exp
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:   [3/4] UE4Editor-CamManager-1467.dll
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1467.suppressed.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1467.suppressed.exp
+[2021.03.26-08.48.44:899][528]CompilerResultsLog:   [4/4] CamManagerEditor.target
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Total time in Parallel executor: 657,55 seconds
+[2021.03.26-08.48.44:899][528]CompilerResultsLog: Total execution time: 664,72 seconds
+[2021.03.26-08.48.44:899][528]LogMainFrame: MainFrame: Module compiling took 665.770 seconds
+[2021.03.26-08.48.45:013][528]LogClass: EConsomableEffect HotReload.
+[2021.03.26-08.48.45:013][528]LogClass: CamSettings HotReload.
+[2021.03.26-08.48.45:013][528]LogClass: ConsomableInfo HotReload.
+[2021.03.26-08.48.45:023][528]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0006 seconds. Added 15 classes and 2 folders.
+[2021.03.26-08.48.45:028][528]Display: HotReload successful (19 functions remapped  2 scriptstructs remapped)
+[2021.03.26-08.48.45:191][528]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 3442 classes and 823 folders.
+[2021.03.26-08.48.45:191][528]Display: HotReload took 666.2s.
+[2021.03.26-08.48.51:681][547]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.48.51:705][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.48.51:705][547]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:48:51)
+[2021.03.26-08.48.51:705][547]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.48.51:819][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113165s)
+[2021.03.26-08.48.51:821][547]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.48.51:821][547]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B21207E00), frame # 71547
+[2021.03.26-08.48.51:821][547]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B2124A340), frame # 71547
+[2021.03.26-08.48.51:821][547]LogPlayLevel: PIE: World Init took: (0.001843s)
+[2021.03.26-08.48.51:821][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.115251s)
+[2021.03.26-08.48.52:032][547]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.48.52:040][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.48.52:040][547]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.48.52:040][547]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.48.52:091][547]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.48.52:091][547]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.48.52:262][547]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.48.52:263][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.48.52:263][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.48.52:263][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.48.52:263][547]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.48.52:292][547]LogInit: FAudioDevice initialized.
+[2021.03.26-08.48.52:310][547]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.48.52:340][547]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.48.52
+[2021.03.26-08.48.52:341][547]LogWorld: Bringing up level for play took: 0.029086
+[2021.03.26-08.48.52:341][547]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.26-08.48.52:348][547]PIE: Server logged in
+[2021.03.26-08.48.52:350][547]PIE: Play in editor total start time 0,651 seconds.
+[2021.03.26-08.48.59:402][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.48.59:402][959]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.48.59:402][959]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.48.59:405][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.48.59:413][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.48.59:420][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.48.59:491][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.48.59:505][959]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B2124A340), frame # 71959
+[2021.03.26-08.48.59:505][959]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B21207E00), frame # 71959
+[2021.03.26-08.48.59:641][959]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2021.03.26-08.48.59:718][960]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.26-08.49.00:422][  2]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-08.49.00:447][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-08.49.00:448][  2]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 10:49:00)
+[2021.03.26-08.49.00:448][  2]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.49.00:506][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059060s)
+[2021.03.26-08.49.00:508][  2]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-08.49.00:508][  2]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B0ECDCA00), frame # 72002
+[2021.03.26-08.49.00:508][  2]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B32FE2340), frame # 72002
+[2021.03.26-08.49.00:508][  2]LogPlayLevel: PIE: World Init took: (0.002282s)
+[2021.03.26-08.49.00:508][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.061574s)
+[2021.03.26-08.49.00:560][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-08.49.00:565][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-08.49.00:565][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-08.49.00:566][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-08.49.00:567][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-08.49.00:577][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-08.49.00:577][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-08.49.00:680][  2]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-08.49.00:680][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-08.49.00:681][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-08.49.00:681][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-08.49.00:682][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-08.49.00:713][  2]LogInit: FAudioDevice initialized.
+[2021.03.26-08.49.00:725][  2]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-08.49.00:782][  2]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-09.49.00
+[2021.03.26-08.49.00:783][  2]LogWorld: Bringing up level for play took: 0.056223
+[2021.03.26-08.49.00:783][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.26-08.49.00:812][  2]PIE: Server logged in
+[2021.03.26-08.49.00:814][  2]PIE: Play in editor total start time 0,371 seconds.
+[2021.03.26-08.49.05:710][285]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.49.08:481][451]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-08.49.11:591][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.49.11:591][635]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-08.49.11:592][635]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-08.49.11:594][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.49.11:604][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-08.49.11:611][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-08.49.11:702][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-08.49.11:703][635]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B32FE2340), frame # 72635
+[2021.03.26-08.49.11:703][635]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B0ECDCA00), frame # 72635
+[2021.03.26-08.49.11:707][635]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.03.26-08.49.11:747][636]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.26-08.53.50:045][584]Candidate modules for hot reload:
+[2021.03.26-08.53.50:045][584]  CamManager
+[2021.03.26-08.53.50:045][584]Launching UnrealBuildTool... [D:/Work/UE4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,1738 CamManagerEditor Win64 Development -Project="D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject" "D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.26-08.53.50:050][584]Warning: Starting HotReload took  0.1s.
+[2021.03.26-08.54.03:322][263]CompilerResultsLog: New page: Compilation - 26 mars 2021 à 10:54:03
+[2021.03.26-08.54.03:322][263]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Work\P2\GitHub\UE4_Proj\Diablo_like).
+[2021.03.26-08.54.03:322][263]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.26-08.54.03:323][263]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.26-08.54.03:323][263]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.03.26-08.54.03:323][263]LogMainFrame: MainFrame: Module compiling took 13.291 seconds
+[2021.03.26-08.54.03:323][263]Warning: HotReload failed, recompile failed
+[2021.03.26-08.55.01:234][498]Candidate modules for hot reload:
+[2021.03.26-08.55.01:234][498]  CamManager
+[2021.03.26-08.55.01:234][498]Launching UnrealBuildTool... [D:/Work/UE4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,3957 CamManagerEditor Win64 Development -Project="D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject" "D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.26-08.55.01:264][498]Warning: Starting HotReload took  0.1s.
+[2021.03.26-09.10.34:282][320]CompilerResultsLog: New page: Compilation - 26 mars 2021 à 11:10:34
+[2021.03.26-09.10.34:282][320]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Work\P2\GitHub\UE4_Proj\Diablo_like).
+[2021.03.26-09.10.34:283][320]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.26-09.10.34:283][320]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.26-09.10.34:283][320]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:   [1/4] CM_UserWidget.cpp
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:   [2/4] UE4Editor-CamManager-3957.lib
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-3957.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-3957.exp
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:   [3/4] UE4Editor-CamManager-3957.dll
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-3957.suppressed.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-3957.suppressed.exp
+[2021.03.26-09.10.34:283][320]CompilerResultsLog:   [4/4] CamManagerEditor.target
+[2021.03.26-09.10.34:283][320]CompilerResultsLog: Total time in Parallel executor: 927,02 seconds
+[2021.03.26-09.10.34:283][320]CompilerResultsLog: Total execution time: 931,74 seconds
+[2021.03.26-09.10.34:283][320]LogMainFrame: MainFrame: Module compiling took 933.053 seconds
+[2021.03.26-09.10.34:411][320]LogClass: EConsomableEffect HotReload.
+[2021.03.26-09.10.34:412][320]LogClass: CamSettings HotReload.
+[2021.03.26-09.10.34:412][320]LogClass: ConsomableInfo HotReload.
+[2021.03.26-09.10.34:425][320]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0006 seconds. Added 15 classes and 2 folders.
+[2021.03.26-09.10.34:430][320]Display: HotReload successful (19 functions remapped  2 scriptstructs remapped)
+[2021.03.26-09.10.34:865][320]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3442 classes and 823 folders.
+[2021.03.26-09.10.34:865][320]Display: HotReload took 933.7s.
+[2021.03.26-09.10.41:668][706]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-09.10.41:692][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-09.10.41:692][706]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 11:10:41)
+[2021.03.26-09.10.41:693][706]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-09.10.41:741][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047894s)
+[2021.03.26-09.10.41:742][706]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-09.10.41:743][706]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B1C902600), frame # 84706
+[2021.03.26-09.10.41:743][706]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B1C91EAC0), frame # 84706
+[2021.03.26-09.10.41:743][706]LogPlayLevel: PIE: World Init took: (0.002263s)
+[2021.03.26-09.10.41:743][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.050385s)
+[2021.03.26-09.10.41:849][706]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-09.10.41:964][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-09.10.41:964][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-09.10.41:965][706]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-09.10.41:965][706]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-09.10.42:001][706]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-09.10.42:001][706]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-09.10.42:147][706]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-09.10.42:147][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-09.10.42:147][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-09.10.42:147][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-09.10.42:148][706]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-09.10.42:191][706]LogInit: FAudioDevice initialized.
+[2021.03.26-09.10.42:211][706]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-09.10.42:234][706]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-10.10.42
+[2021.03.26-09.10.42:234][706]LogWorld: Bringing up level for play took: 0.022783
+[2021.03.26-09.10.42:235][706]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.26-09.10.42:239][706]PIE: Server logged in
+[2021.03.26-09.10.42:240][706]PIE: Play in editor total start time 0,554 seconds.
+[2021.03.26-09.10.52:667][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-09.10.52:667][321]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-09.10.52:667][321]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-09.10.52:670][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-09.10.52:702][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-09.10.52:707][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-09.10.52:752][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-09.10.52:761][321]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B1C91EAC0), frame # 85321
+[2021.03.26-09.10.52:761][321]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B1C902600), frame # 85321
+[2021.03.26-09.10.52:893][321]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.03.26-09.10.52:947][322]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.26-09.10.53:557][354]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-09.10.53:579][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-09.10.53:579][354]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 11:10:53)
+[2021.03.26-09.10.53:579][354]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-09.10.53:635][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057149s)
+[2021.03.26-09.10.53:636][354]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-09.10.53:636][354]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B15691600), frame # 85354
+[2021.03.26-09.10.53:636][354]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B184CE980), frame # 85354
+[2021.03.26-09.10.53:636][354]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2021.03.26-09.10.53:636][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.058391s)
+[2021.03.26-09.10.53:677][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-09.10.53:679][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-09.10.53:679][354]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-09.10.53:679][354]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-09.10.53:687][354]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-09.10.53:687][354]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-09.10.53:740][354]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-09.10.53:740][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-09.10.53:740][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-09.10.53:740][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-09.10.53:741][354]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-09.10.53:756][354]LogInit: FAudioDevice initialized.
+[2021.03.26-09.10.53:765][354]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-09.10.53:784][354]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-10.10.53
+[2021.03.26-09.10.53:785][354]LogWorld: Bringing up level for play took: 0.018817
+[2021.03.26-09.10.53:785][354]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.03.26-09.10.53:789][354]PIE: Server logged in
+[2021.03.26-09.10.53:790][354]PIE: Play in editor total start time 0,215 seconds.
+[2021.03.26-09.10.56:197][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-09.10.56:197][490]LogWorld: BeginTearingDown for /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-09.10.56:198][490]LogWorld: UWorld::CleanupWorld for Demo_Gardens, bSessionEnded=true, bCleanupResources=true
+[2021.03.26-09.10.56:200][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-09.10.56:207][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.26-09.10.56:213][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.26-09.10.56:298][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.26-09.10.56:300][490]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027B184CE980), frame # 85490
+[2021.03.26-09.10.56:300][490]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027B15691600), frame # 85490
+[2021.03.26-09.10.56:306][490]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2021.03.26-09.10.56:405][491]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.03.26-09.20.10:332][227]Candidate modules for hot reload:
+[2021.03.26-09.20.10:332][227]  CamManager
+[2021.03.26-09.20.10:332][227]Launching UnrealBuildTool... [D:/Work/UE4/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CamManager,1285 CamManagerEditor Win64 Development -Project="D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject" "D:/Work/P2/GitHub/UE4_Proj/Diablo_like/CamManager/CamManager.uproject"  -IgnoreJunk]
+[2021.03.26-09.20.10:415][227]Warning: Starting HotReload took  0.2s.
+[2021.03.26-09.29.23:062][559]CompilerResultsLog: New page: Compilation - 26 mars 2021 à 11:29:23
+[2021.03.26-09.29.23:062][559]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Work\P2\GitHub\UE4_Proj\Diablo_like).
+[2021.03.26-09.29.23:062][559]CompilerResultsLog: Parsing headers for CamManagerEditor
+[2021.03.26-09.29.23:062][559]CompilerResultsLog:   Running UnrealHeaderTool "D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\CamManager.uproject" "D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\CamManagerEditor\Development\CamManagerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Utilisateur\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.03.26-09.29.23:079][559]CompilerResultsLog: Reflection code generated for CamManagerEditor in 58,6765951 seconds
+[2021.03.26-09.29.23:079][559]CompilerResultsLog: Building CamManagerEditor...
+[2021.03.26-09.29.23:079][559]CompilerResultsLog: Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.26-09.29.23:079][559]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [1/9] CamManager.init.gen.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [2/9] CM_UserWidget.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [3/9] CM_Player.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [4/9] CM_PlayerHUD.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [5/9] CM_PlayerHUD.gen.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [6/9] CM_UserWidget.gen.cpp
+[2021.03.26-09.29.23:079][559]CompilerResultsLog:   [7/9] UE4Editor-CamManager-1285.lib
+[2021.03.26-09.29.23:080][559]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1285.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1285.exp
+[2021.03.26-09.29.23:080][559]CompilerResultsLog:   [8/9] UE4Editor-CamManager-1285.dll
+[2021.03.26-09.29.23:080][559]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1285.suppressed.lib et de l'objet D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\UE4Editor-CamManager-1285.suppressed.exp
+[2021.03.26-09.29.23:080][559]CompilerResultsLog:   [9/9] CamManagerEditor.target
+[2021.03.26-09.29.23:080][559]CompilerResultsLog: Total time in Parallel executor: 486,48 seconds
+[2021.03.26-09.29.23:080][559]CompilerResultsLog: Total execution time: 552,10 seconds
+[2021.03.26-09.29.23:080][559]LogMainFrame: MainFrame: Module compiling took 552.753 seconds
+[2021.03.26-09.29.23:174][559]LogClass: Could not find existing class CM_UserWidget in package /Script/CamManager for HotReload, assuming new class
+[2021.03.26-09.29.23:251][559]LogClass: Function InitStatsBar is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function SetHealPotionText is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function SetHealProgressBar is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function SetManaPotionText is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function SetManaProgressBar is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function UpdateHealBarValue is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function UpdateManaBarValue is new.
+[2021.03.26-09.29.23:251][559]LogClass: Function UpdatePotionValue is new.
+[2021.03.26-09.29.23:254][559]LogClass: EConsomableEffect HotReload.
+[2021.03.26-09.29.23:254][559]LogClass: CamSettings HotReload.
+[2021.03.26-09.29.23:254][559]LogClass: ConsomableInfo HotReload.
+[2021.03.26-09.29.23:350][559]LogHotReload: Re-instancing CM_UserWidget after hot-reload.
+[2021.03.26-09.29.25:099][559]LogContentBrowser: Native class hierarchy updated for 'CamManager' in 0.0005 seconds. Added 15 classes and 2 folders.
+[2021.03.26-09.29.25:104][559]Display: HotReload successful (12 functions remapped  2 scriptstructs remapped)
+[2021.03.26-09.29.25:453][559]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3442 classes and 823 folders.
+[2021.03.26-09.29.25:453][559]Display: HotReload took 555.2s.
+[2021.03.26-09.30.08:523][838]BlueprintLog: New page: Compile CM_DiabloLikeWidget
+[2021.03.26-09.30.08:702][838]LogUObjectHash: Compacting FUObjectHashTables data took  27.58ms
+[2021.03.26-09.30.11:264][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/HUD/CM_DiabloLikeWidget" FILE="../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset" SILENT=true
+[2021.03.26-09.30.11:460][972]LogSavePackage: Moving '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Saved/CM_DiabloLikeWidgetFA68AD6A4558CA17529589B6DCB3E186.tmp' to '../../../../../P2/GitHub/UE4_Proj/Diablo_like/CamManager/Content/BluePrint/HUD/CM_DiabloLikeWidget.uasset'
+[2021.03.26-09.30.11:563][972]AssetCheck: New page: Asset Save: CM_DiabloLikeWidget
+[2021.03.26-09.30.11:564][972]LogContentValidation: Display: Validating WidgetBlueprint /Game/BluePrint/HUD/CM_DiabloLikeWidget.CM_DiabloLikeWidget
+[2021.03.26-09.30.16:067][238]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.26-09.30.16:104][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.26-09.30.16:104][238]PIE: New page: PIE session: Demo_Gardens (26 mars 2021 à 11:30:16)
+[2021.03.26-09.30.16:199][238]LogPlayLevel: Creating play world package: /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens
+[2021.03.26-09.30.16:248][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048907s)
+[2021.03.26-09.30.16:258][238]LogAIModule: Creating AISystem for world Demo_Gardens
+[2021.03.26-09.30.16:258][238]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027B2CD20400), frame # 91238
+[2021.03.26-09.30.16:258][238]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027B39B660C0), frame # 91238
+[2021.03.26-09.30.16:258][238]LogPlayLevel: PIE: World Init took: (0.010089s)
+[2021.03.26-09.30.16:258][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/City_of_Brass_Enviroment/Maps/Demo_Gardens.Demo_Gardens to /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens (0.059265s)
+[2021.03.26-09.30.16:362][238]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.26-09.30.16:366][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.26-09.30.16:366][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.26-09.30.16:367][238]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.26-09.30.16:367][238]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.26-09.30.16:391][238]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.26-09.30.16:392][238]LogAudioMixer: Display: 1: FrontRight
+[2021.03.26-09.30.16:531][238]LogAudioMixer: Display: Using Audio Device Casque (SteelSeries Arctis 9 Game)
+[2021.03.26-09.30.16:531][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.26-09.30.16:531][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.26-09.30.16:532][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.26-09.30.16:542][238]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.26-09.30.16:549][238]LogInit: FAudioDevice initialized.
+[2021.03.26-09.30.16:576][238]LogLoad: Game class is 'CamManagerGameMode_C'
+[2021.03.26-09.30.16:589][238]LogWorld: Bringing World /Game/City_of_Brass_Enviroment/Maps/UEDPIE_0_Demo_Gardens.Demo_Gardens up for play (max tick rate 60) at 2021.03.26-10.30.16
+[2021.03.26-09.30.16:590][238]LogWorld: Bringing up level for play took: 0.013655
+[2021.03.26-09.30.16:590][238]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.03.26-09.30.16:634][238]PIE: Server logged in
+[2021.03.26-09.30.16:635][238]PIE: Play in editor total start time 0,539 seconds.
+[2021.03.26-09.30.22:319][566]LogBlueprintUserMessages: [BaseState_C_0] playerFind
+[2021.03.26-09.31.47:457][827]LogWindows: Error: === Critical error: ===
+[2021.03.26-09.31.47:457][827]LogWindows: Error: 
+[2021.03.26-09.31.47:457][827]LogWindows: Error: Fatal error!
+[2021.03.26-09.31.47:457][827]LogWindows: Error: 
+[2021.03.26-09.31.47:457][827]LogWindows: Error: 
+[2021.03.26-09.31.47:863][827]LogExit: Executing StaticShutdownAfterError
+[2021.03.26-09.31.58:222][827]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.03.26-09.31.58:222][827]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.03.26-09.31.58:396][827]Log file closed, 03/26/21 10:31:58

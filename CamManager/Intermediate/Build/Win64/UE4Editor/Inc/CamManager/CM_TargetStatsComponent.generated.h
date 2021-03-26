@@ -14,8 +14,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CAMMANAGER_CM_TargetStatsComponent_generated_h
 
 #define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_SPARSE_DATA
-#define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_RPC_WRAPPERS
-#define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execReduceMana); \
+	DECLARE_FUNCTION(execIncreaseMana); \
+	DECLARE_FUNCTION(execTakeDamage); \
+	DECLARE_FUNCTION(execIncreaseLife);
+
+
+#define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReduceMana); \
+	DECLARE_FUNCTION(execIncreaseMana); \
+	DECLARE_FUNCTION(execTakeDamage); \
+	DECLARE_FUNCTION(execIncreaseLife);
+
+
 #define CamManager_Source_CamManager_CM_TargetStatsComponent_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCM_TargetStatsComponent(); \
