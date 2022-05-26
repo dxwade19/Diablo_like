@@ -1,7 +1,7 @@
 {
-	"BuildId": "13144385",
+	"BuildId": "14830424",
 	"Modules": 
 	{
-		"CamManager": "UE4Editor-CamManager-7418.dll"
+		"CamManager": "UE4Editor-CamManager.dll"
 	}
 }

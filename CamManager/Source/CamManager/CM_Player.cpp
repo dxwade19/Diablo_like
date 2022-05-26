@@ -5,7 +5,6 @@
 #include "CamManagerGameModeBase.h"
 
 
-
 #pragma region Constructor
 
 ACM_Player::ACM_Player()
@@ -20,15 +19,13 @@ ACM_Player::ACM_Player()
 void ACM_Player::BeginPlay()
 {
 	Super::BeginPlay();
-	InitCamera();
-	InitComponent();
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = true;
+	Init();
 }
 
 void ACM_Player::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetViewTarget(playerCamera);	//TODO Change Place
+	UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetViewTarget(playerCamera);
 }
 
 void ACM_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -39,10 +36,30 @@ void ACM_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 #pragma endregion
 
+#pragma region Interfaces
+
+UCM_TargetStatsComponent* ACM_Player::GetTargetStats_Implementation()
+{
+	return playerStats;
+}
+
+void ACM_Player::InitTargetStatsComponent_Implementation()
+{
+	if (!playerStats) playerStats = (UCM_TargetStatsComponent*)GetComponentByClass(playerTargetStatsClass);
+}
+
+#pragma endregion
+
 #pragma region Custom_Methods
 
-
 #pragma region Init/Register Input
+
+void ACM_Player::Init()
+{
+	InitCamera();
+	InitComponent();
+	UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = true;
+}
 
 void ACM_Player::InitCamera()
 {
@@ -74,7 +91,6 @@ void ACM_Player::RegisterPlayerInput(UInputComponent* _playerInputComponent)
 
 #pragma endregion
 
-
 #pragma region ChangeDirection
 
 void ACM_Player::ChangeMoveDirection()
@@ -88,24 +104,13 @@ void ACM_Player::ChangeMoveDirection()
 
 #pragma endregion
 
-#pragma endregion
+#pragma region UseItem
 
 void ACM_Player::UseItem(int _itemID)
 {
 	playerInventory->MakeItemAction(_itemID);
 }
 
-#pragma region ITarget
-
-UCM_TargetStatsComponent* ACM_Player::GetTargetStats_Implementation()
-{
-	return playerStats;
-}
-
-void ACM_Player::InitTargetStatsComponent_Implementation()
-{
-	if (!playerStats)
-		playerStats = (UCM_TargetStatsComponent*)GetComponentByClass(playerTargetStatsClass);
-}
+#pragma endregion
 
 #pragma endregion

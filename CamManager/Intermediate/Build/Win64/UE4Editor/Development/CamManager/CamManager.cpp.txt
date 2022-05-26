@@ -1,2 +1,0 @@
-D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Intermediate\Build\Win64\UE4Editor\Development\CamManager\Definitions.CamManager.h
-D:\Work\P2\GitHub\UE4_Proj\Diablo_like\CamManager\Source\CamManager\CamManager.h
